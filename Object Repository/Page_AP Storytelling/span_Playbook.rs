@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Playbook</name>
+   <tag></tag>
+   <elementGuidId>0bce6297-6f7a-4f3d-8dc4-741ae3c2b2d5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='AP STORYTELLING:'])[1]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.app-title.mleft10.left > span.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>59d5ac26-e7af-4a62-a240-9f4f53782eb1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-star-inserted</value>
+      <webElementGuid>2dc56e3a-1956-4823-bbe2-ec5b66304de4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Playbook</value>
+      <webElementGuid>5d426933-c70a-47c5-b08c-de14720b2eda</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;playbook-theme multiple-products&quot;]/app-root[1]/main[@class=&quot;ng-star-inserted&quot;]/loader[1]/div[1]/top-bar[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;top-bar-container fixed&quot;]/div[@class=&quot;app-title mleft10 left&quot;]/span[@class=&quot;ng-star-inserted&quot;]</value>
+      <webElementGuid>3d389c71-03ef-4c8f-8c45-f83dc3db2d27</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AP STORYTELLING:'])[1]/following::span[1]</value>
+      <webElementGuid>3154f131-5b1a-4ea3-b836-eab85047b694</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hide Navigation Bar'])[1]/following::span[1]</value>
+      <webElementGuid>26ba482e-9f20-4d35-8bc2-430aaf06b115</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View3 assignments'])[2]/preceding::span[1]</value>
+      <webElementGuid>3239fa80-6904-4b6e-ab03-a84d8842d2cf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New'])[1]/preceding::span[2]</value>
+      <webElementGuid>d0431f23-1508-493b-b457-b6525d9acd9a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/span</value>
+      <webElementGuid>b6f2aa61-e8f3-4ef9-9301-775afc3913d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Playbook' or . = 'Playbook')]</value>
+      <webElementGuid>45294484-203b-43cb-ad11-439dff5814ee</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
