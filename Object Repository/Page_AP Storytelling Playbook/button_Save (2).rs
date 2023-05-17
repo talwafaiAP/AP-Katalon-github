@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Save (2)</name>
+   <tag></tag>
+   <elementGuidId>40be5cd8-a2b9-4655-a102-4d85c60e033c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.slds-button.slds-button--neutral.create-button.right.mright20</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='button']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>c9716d46-c620-4e18-b4a9-e4d607ffa76a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ba171c2f-1830-43b3-b215-0d9114634b8e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>slds-button slds-button--neutral create-button right mright20</value>
+      <webElementGuid>cf4d73b4-4e9e-42cf-8963-d0c4ad9be430</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Save</value>
+      <webElementGuid>53f7727c-29aa-4316-ab7b-3f8e9e002320</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;playbook-theme multiple-products&quot;]/app-root[1]/main[@class=&quot;ng-star-inserted&quot;]/loader[1]/div[1]/mdl-dialog-host-component[@class=&quot;create-new-view-dialog mdl-dialog ng-star-inserted open&quot;]/div[@class=&quot;ng-star-inserted&quot;]/create-new-view[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;create-new-view-container&quot;]/div[@class=&quot;mtop30 header&quot;]/button[@class=&quot;slds-button slds-button--neutral create-button right mright20&quot;]</value>
+      <webElementGuid>13db3295-bdea-4252-a373-7e717b3415f6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='button']</value>
+      <webElementGuid>91623f8e-5539-4eb3-b74d-934e78916168</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New View'])[1]/following::button[1]</value>
+      <webElementGuid>da96eae9-6b03-46f8-8eef-0d98cd273a6a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='© Associated Press All rights reserved.'])[1]/following::button[1]</value>
+      <webElementGuid>65004b94-0c25-4f29-898d-d6898c8fb75d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/preceding::button[1]</value>
+      <webElementGuid>262d793d-89b2-4b51-bc54-11c364c44b71</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Type'])[1]/preceding::button[1]</value>
+      <webElementGuid>76d77327-4d67-4a07-919d-9839ed16e0f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Save']/parent::*</value>
+      <webElementGuid>c9986fdd-3941-4401-a766-31bd678b7319</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//create-new-view/div/div/button</value>
+      <webElementGuid>b100ef8b-de5c-4d4c-a3a9-803a7f8485e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Save' or . = 'Save')]</value>
+      <webElementGuid>0c4e9c10-ad41-4aca-ab4a-777b378d9f53</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_AP STORYTELLING_mauto block text-inpu_26a78b (2)</name>
+   <tag></tag>
+   <elementGuidId>d81c9f3f-551e-498e-ba7f-48ed8323252e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>input.mauto.block.text-input.ng-untouched.ng-valid.ng-dirty</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@type='password']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>7dbdc55a-5f6e-4dfe-bae5-6293580fff2f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>password</value>
+      <webElementGuid>91ea00b5-40b9-4727-b69f-aab1d4b522e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mauto block text-input ng-untouched ng-valid ng-dirty</value>
+      <webElementGuid>6fabfaf6-b933-4bce-aec6-fd969a4f04fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Password</value>
+      <webElementGuid>792ff9f3-745b-4bb8-8f59-0ee4c582d74f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;playbook-theme&quot;]/app-root[1]/login[1]/div[@class=&quot;login-container multiple-products&quot;]/loader[@class=&quot;login-loader&quot;]/div[@class=&quot;login-form&quot;]/table[@class=&quot;login-controls-container&quot;]/tr[2]/td[1]/input[@class=&quot;mauto block text-input ng-untouched ng-valid ng-dirty&quot;]</value>
+      <webElementGuid>13f3de3f-304c-4621-880e-574539aa68da</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@type='password']</value>
+      <webElementGuid>3a30f39e-8d82-4a1f-a956-56b3bc35245e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input[2]</value>
+      <webElementGuid>11bdfc13-b44b-4720-81ec-a4dceb6330c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'password' and @placeholder = 'Password']</value>
+      <webElementGuid>72a0f881-c5dc-4557-bd6b-5b6b8efb0ea1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

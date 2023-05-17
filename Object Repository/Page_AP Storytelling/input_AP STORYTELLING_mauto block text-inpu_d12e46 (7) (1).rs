@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_AP STORYTELLING_mauto block text-inpu_d12e46 (7) (1)</name>
+   <tag></tag>
+   <elementGuidId>368bf70a-ab31-4831-80f6-d24d6870d3b9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>input.mauto.block.text-input.ng-untouched.ng-pristine.ng-valid</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@type='text']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>0c478277-ba94-4928-beb9-4675f1532dc7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>10fcaa00-412f-468e-b66f-300fac7998f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mauto block text-input ng-untouched ng-pristine ng-valid</value>
+      <webElementGuid>626a6572-79d0-4146-8d0b-d70cf0a3329b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Username</value>
+      <webElementGuid>8e599636-c448-43ff-98ec-2bea854e5945</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;playbook-theme&quot;]/app-root[1]/login[1]/div[@class=&quot;login-container multiple-products&quot;]/loader[@class=&quot;login-loader&quot;]/div[@class=&quot;login-form&quot;]/table[@class=&quot;login-controls-container&quot;]/tr[2]/td[1]/input[@class=&quot;mauto block text-input ng-untouched ng-pristine ng-valid&quot;]</value>
+      <webElementGuid>d38a7309-1a14-425f-872d-bef5fa7f5fad</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@type='text']</value>
+      <webElementGuid>f8205601-0f52-45ab-b2bb-92ea7f1fe7c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input</value>
+      <webElementGuid>3ddd7363-350c-490b-8506-fc3f85f4718b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'Username']</value>
+      <webElementGuid>db7292de-b7ca-4b37-b113-e0bb99187252</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

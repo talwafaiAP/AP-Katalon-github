@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_About</name>
+   <tag></tag>
+   <elementGuidId>39927e46-412a-4c82-80b4-d1da0357eb84</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Help'])[1]/following::div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>47d57258-ffe4-48ee-b917-5c03d5f8abba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>hand mtop15 mbottom10</value>
+      <webElementGuid>33920858-29f3-4978-9b2f-dcf1734f28f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>About</value>
+      <webElementGuid>50ca8c35-00c6-4972-89df-3db99308abeb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;playbook-theme multiple-products&quot;]/app-root[1]/main[@class=&quot;ng-star-inserted&quot;]/loader[1]/div[1]/top-bar-user-menu[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;top-bar-user-menu-container mtop52 mright30 transition&quot;]/div[2]/table[@class=&quot;transition&quot;]/tr[1]/td[1]/div[@class=&quot;user-menu-options mleft30 fs16 left&quot;]/div[@class=&quot;hand mtop15 mbottom10&quot;]</value>
+      <webElementGuid>b2a67dd0-79d2-4ba7-96b1-5a7740b91d40</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Help'])[1]/following::div[1]</value>
+      <webElementGuid>66c596e8-d756-444e-a435-ba016fb3c19f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='arrow_forward'])[2]/following::div[2]</value>
+      <webElementGuid>0a5c5c80-43c4-41e8-a944-23a020afb11c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Team Members'])[1]/preceding::div[2]</value>
+      <webElementGuid>e48dfebb-4aca-4d6e-be68-e4f0f5a12de1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Publication Channels'])[1]/preceding::div[3]</value>
+      <webElementGuid>47ab7def-a4fd-400f-a090-c8792142f2f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='About']/parent::*</value>
+      <webElementGuid>0a7aa6d8-fe04-4850-b1b5-3621d47560dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/div/div[4]</value>
+      <webElementGuid>ae3c725b-f029-4e3f-a860-16e896488e64</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'About' or . = 'About')]</value>
+      <webElementGuid>36db5699-afd0-4cee-8711-da32c4d9e46d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

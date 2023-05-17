@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Email</name>
+   <tag></tag>
+   <elementGuidId>f722b500-ce40-4b71-b169-47391bb457e5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.mdl-list__item-primary-content</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='keyboard_arrow_down'])[2]/following::div[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>68cbf83a-0ef7-4668-ae3c-850d7b8e4832</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mdl-list__item-primary-content</value>
+      <webElementGuid>dd5df21a-e8df-4a22-a3ac-61f889e5a9a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Email</value>
+      <webElementGuid>07212f0c-a966-4030-b14a-baa873b8719e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;playbook-theme multiple-products&quot;]/app-root[1]/main[@class=&quot;ng-star-inserted&quot;]/loader[1]/div[1]/main-content[@class=&quot;otouch&quot;]/div[@class=&quot;main-content sidemenu-shrinked&quot;]/manage-publication-channels[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;data-container-wrapper&quot;]/loader[1]/div[@class=&quot;scroll-container&quot;]/pane-container[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;is-expanded&quot;]/div[@class=&quot;relative left item-container ng-star-inserted&quot;]/div[@class=&quot;left mleft20 main-info-container&quot;]/div[@class=&quot;w70 left row&quot;]/div[@class=&quot;left ellipsis col single-page ng-star-inserted&quot;]/mdl-select[@class=&quot;mdl-select has-placeholder ng-untouched ng-valid ng-star-inserted ng-dirty&quot;]/div[@class=&quot;mdl-textfield is-upgraded is-focused&quot;]/mdl-popover[@class=&quot;mdl-popover is-visible&quot;]/div[@class=&quot;mdl-list mdl-shadow--6dp&quot;]/mdl-option[@class=&quot;mdl-option__container ng-star-inserted&quot;]/div[@class=&quot;mdl-list__item&quot;]/div[@class=&quot;mdl-list__item-primary-content&quot;]</value>
+      <webElementGuid>a4bda2c0-f938-4a55-90d5-7eda86e04441</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='keyboard_arrow_down'])[2]/following::div[3]</value>
+      <webElementGuid>e879a3af-9fc3-4a65-bb05-b5c95734edf2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='keyboard_arrow_down'])[1]/following::div[6]</value>
+      <webElementGuid>c8d5330f-1940-41eb-a057-6841483076d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CMS'])[1]/preceding::div[1]</value>
+      <webElementGuid>21f35a04-c207-4b07-83e4-00f03369265f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Social'])[1]/preceding::div[3]</value>
+      <webElementGuid>fa5bf916-eee9-48cd-8a5a-dc0727eb9fb7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Email']/parent::*</value>
+      <webElementGuid>24407989-a630-4674-94e2-d7a7fe98328d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mdl-option/div/div</value>
+      <webElementGuid>f87a2b7a-9a96-4dd1-a385-e4558b9a6673</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Email' or . = 'Email')]</value>
+      <webElementGuid>08c7d415-9aa0-40a0-b180-ff2c744bcba0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

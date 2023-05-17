@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>slideshowRadioVerify</name>
+   <tag></tag>
+   <elementGuidId>7408da28-4a89-4cb1-8971-08d14af59b7a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/main/loader/div/mdl-dialog-host-component/div[2]/create-new-view/div/div[3]/div[3]/div[3]/mdl-radio[2][count(. | //*[contains(@class, 'is-checked')]) = count(//*[contains(@class, 'is-checked')])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/main/loader/div/mdl-dialog-host-component/div[2]/create-new-view/div/div[3]/div[3]/div[3]/mdl-radio[2]</value>
+      <webElementGuid>8253ae33-ff7e-4790-b46f-d533db3d7852</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>is-checked</value>
+      <webElementGuid>a9f01d98-e9f0-4a60-bb10-c41445ea7b12</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

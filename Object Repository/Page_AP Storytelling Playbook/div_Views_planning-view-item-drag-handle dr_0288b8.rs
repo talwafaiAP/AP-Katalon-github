@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Views_planning-view-item-drag-handle dr_0288b8</name>
+   <tag></tag>
+   <elementGuidId>0c5b19aa-59d1-4fb5-bd34-5196a7d1f124</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.planning-view-item-drag-handle.drag-handle</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//planning-view-item/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>dd25f780-d398-423c-90ec-0db06a03226e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>planning-view-item-drag-handle drag-handle</value>
+      <webElementGuid>511d73cb-7448-45d0-8ba8-6d2ce931d6dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;playbook-theme multiple-products&quot;]/app-root[1]/main[@class=&quot;ng-star-inserted&quot;]/loader[1]/div[1]/main-content[@class=&quot;otouch&quot;]/div[@class=&quot;main-content sidemenu-expanded&quot;]/planning-views[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;planning-views-container&quot;]/div[@class=&quot;data-container-wrapper-filter-overlay data-container-wrapper-filter-collapsed&quot;]/div[@class=&quot;left oauto data-container scrollable data-container-filter-overlay data-container-filter-collapsed&quot;]/loader[1]/div[1]/div[@class=&quot;ng-star-inserted&quot;]/pane-container[1]/div[@class=&quot;is-expanded&quot;]/div[@class=&quot;planning-view-item-container ng-star-inserted&quot;]/planning-view-item[1]/div[@class=&quot;planning-view-item&quot;]/div[@class=&quot;planning-view-item-drag-handle drag-handle&quot;]</value>
+      <webElementGuid>f03087eb-e1cf-485d-96dc-9e524b622fe0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//planning-view-item/div/div</value>
+      <webElementGuid>386202e2-6fc8-40b4-8de9-153d6168ab8c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

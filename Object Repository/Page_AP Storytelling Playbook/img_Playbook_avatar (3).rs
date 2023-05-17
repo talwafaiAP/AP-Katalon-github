@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Playbook_avatar (3)</name>
+   <tag></tag>
+   <elementGuidId>f735501f-74a9-44ae-b98d-92afc6ea93fc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>img.avatar</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>928f16f5-6bf8-4c1e-840f-9c3c2e5230f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>decoding</name>
+      <type>Main</type>
+      <value>async</value>
+      <webElementGuid>aca17dda-fbd8-4166-88ed-b15d8bb425ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>avatar</value>
+      <webElementGuid>26c46d06-0c3f-4da0-b170-4bd7810ed4fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://LONENPSDEVQA53/NOMWebServices3JSON/api/Avatar?userid=ADMINISTRATOR&amp;ts=1683260672160</value>
+      <webElementGuid>cc882770-a7fd-4a52-aef0-743bddf9e9a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;playbook-theme multiple-products&quot;]/app-root[1]/main[@class=&quot;ng-star-inserted&quot;]/loader[1]/div[1]/top-bar[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;top-bar-container fixed&quot;]/div[@class=&quot;right&quot;]/avatar[@class=&quot;top-bar-avatar right ng-star-inserted&quot;]/div[@class=&quot;relative ng-star-inserted&quot;]/img[@class=&quot;avatar&quot;]</value>
+      <webElementGuid>e5766861-92f2-4471-93b6-e058df8ba3ad</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/img</value>
+      <webElementGuid>17351df9-b668-494e-a0c1-48c8c313b75f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://LONENPSDEVQA53/NOMWebServices3JSON/api/Avatar?userid=ADMINISTRATOR&amp;ts=1683260672160']</value>
+      <webElementGuid>66b50c49-94e4-4e9f-8e9a-4d5ebc0d2a75</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

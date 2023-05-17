@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>viewVerify</name>
+   <tag></tag>
+   <elementGuidId>3eb7112c-2173-4ea0-8256-76a371865d07</elementGuidId>
+   <imagePath></imagePath>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class = 'planning-view-item-title bold']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/app-root/main/loader/div/main-content/div[2]/planning-views/div/div[1]/div[3]/loader/div/div/pane-container/div[3]/div[11]/planning-view-item/div/div[2]/div[1]</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>planning-view-item-title bold</value>
+      <webElementGuid>bd5b8177-3b14-4e93-ba5c-3ae3fd2c4fac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d23001f0-2433-488d-afa6-7f82e1621cbc</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

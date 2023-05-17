@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_View3 assignments_icon-ApplicationMenu_ae05cc (1)</name>
+   <tag></tag>
+   <elementGuidId>6d143b27-72b0-4456-959f-a5f68e13e5cb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.icon-ApplicationMenu.hand.fs22</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//top-bar/div/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>9de24ccd-14c3-4807-85a2-91068f5b5884</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon-ApplicationMenu hand fs22</value>
+      <webElementGuid>38aad70e-2c30-466e-9b09-296233a92ca0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;playbook-theme multiple-products&quot;]/app-root[1]/main[@class=&quot;ng-star-inserted&quot;]/loader[1]/div[1]/top-bar[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;top-bar-container fixed&quot;]/div[@class=&quot;hamburger-menu left mright10&quot;]/span[@class=&quot;icon-ApplicationMenu hand fs22&quot;]</value>
+      <webElementGuid>dcdc58ee-2b93-4ccc-8bf0-cef4c236af81</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//top-bar/div/div/span</value>
+      <webElementGuid>a9c26fb5-3c7b-4e71-9804-d6285b69ed3f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

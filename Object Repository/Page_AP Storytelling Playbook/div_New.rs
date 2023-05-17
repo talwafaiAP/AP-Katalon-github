@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_New</name>
+   <tag></tag>
+   <elementGuidId>ffb78dc0-873d-4fb6-8a82-ff7e9b803000</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.left.bold.fs14.top-menu</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Publication Channels'])[1]/following::div[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f537bae2-170f-4de2-ae56-aa2876576fde</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>left bold fs14 top-menu</value>
+      <webElementGuid>5613a1b0-5fb6-4dab-ab48-65b7254e1359</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>New</value>
+      <webElementGuid>0c9102f9-0fda-453e-bbe5-ae1a8fc7dfd8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;playbook-theme multiple-products&quot;]/app-root[1]/main[@class=&quot;ng-star-inserted&quot;]/loader[1]/div[1]/main-content[@class=&quot;otouch&quot;]/div[@class=&quot;main-content sidemenu-shrinked&quot;]/manage-publication-channels[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;data-container-wrapper&quot;]/loader[1]/div[@class=&quot;scroll-container&quot;]/div[@class=&quot;left bold fs14 top-menu&quot;]</value>
+      <webElementGuid>f156ca28-fd32-4e6d-90c1-aee9c176a7b6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Publication Channels'])[1]/following::div[3]</value>
+      <webElementGuid>c06cd4e7-5d0e-45ee-9646-6a6b6fd4fa93</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Playbook'])[2]/following::div[10]</value>
+      <webElementGuid>0f3c643a-dd7e-4484-91c0-66180489a88a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New Publication Channel'])[1]/preceding::div[5]</value>
+      <webElementGuid>83929052-a743-484a-8bae-8c9f70575493</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//loader/div/div</value>
+      <webElementGuid>ab5b3e73-4666-427c-befe-bfad30951b23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'New' or . = 'New')]</value>
+      <webElementGuid>396d9d6c-865c-45a2-b3e1-d8751e050edd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

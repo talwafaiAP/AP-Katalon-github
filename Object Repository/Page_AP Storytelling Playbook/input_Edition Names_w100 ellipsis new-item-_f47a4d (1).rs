@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Edition Names_w100 ellipsis new-item-_f47a4d (1)</name>
+   <tag></tag>
+   <elementGuidId>e8544db8-0f59-493b-ae3c-3acb7035cfbe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>input.w100.ellipsis.new-item-input.ng-untouched.ng-pristine.ng-valid</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='text'])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>a68a8946-9bb8-4d03-8dd2-07cd2d50b221</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>c8cca9de-f8e0-460e-afa0-d39ed43a8310</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w100 ellipsis new-item-input ng-untouched ng-pristine ng-valid</value>
+      <webElementGuid>55a4528b-6a19-47d8-ba71-57d43ec2c0b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Name</value>
+      <webElementGuid>85719da3-128d-4c34-b4a7-17d5d5d251b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;playbook-theme multiple-products&quot;]/app-root[1]/main[@class=&quot;ng-star-inserted&quot;]/loader[1]/div[1]/main-content[@class=&quot;otouch&quot;]/div[@class=&quot;main-content sidemenu-shrinked&quot;]/manage-publication-channels[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;data-container-wrapper&quot;]/loader[1]/div[@class=&quot;scroll-container&quot;]/pane-container[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;is-expanded&quot;]/div[@class=&quot;relative left item-container ng-star-inserted&quot;]/div[@class=&quot;left mleft20 main-info-container&quot;]/div[@class=&quot;left w20 ellipsis&quot;]/input[@class=&quot;w100 ellipsis new-item-input ng-untouched ng-pristine ng-valid&quot;]</value>
+      <webElementGuid>e71b4fb3-6529-4817-b080-ff9569423631</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='text'])[2]</value>
+      <webElementGuid>2e0e73a2-00e4-4156-99a0-fb96bc830498</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/input</value>
+      <webElementGuid>64a9be60-47bc-40bb-8a15-333c4bf420d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'Name']</value>
+      <webElementGuid>767e72fc-3d11-47d5-be93-37d20bf6db7a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

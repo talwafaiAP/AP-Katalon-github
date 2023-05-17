@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Daily</name>
+   <tag></tag>
+   <elementGuidId>53b83989-ff75-4167-81e2-1a24aa3751ad</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.mdl-list__item-primary-content</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='keyboard_arrow_down'])[3]/following::div[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>987822a2-7dfd-432c-a7e4-c3b527e7a71e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mdl-list__item-primary-content</value>
+      <webElementGuid>c0b7bc26-c7c3-4e5f-8d41-2c182a4e5bd2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Daily</value>
+      <webElementGuid>0a489cab-32c6-46bd-ac99-fbd7b7344154</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;playbook-theme multiple-products&quot;]/app-root[1]/main[@class=&quot;ng-star-inserted&quot;]/loader[1]/div[1]/main-content[@class=&quot;otouch&quot;]/div[@class=&quot;main-content sidemenu-shrinked&quot;]/manage-publication-channels[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;data-container-wrapper&quot;]/loader[1]/div[@class=&quot;scroll-container&quot;]/pane-container[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;is-expanded&quot;]/div[@class=&quot;relative left item-container ng-star-inserted&quot;]/div[@class=&quot;left mleft20 main-info-container&quot;]/div[@class=&quot;w70 left row&quot;]/div[@class=&quot;left ellipsis col single-page ng-star-inserted&quot;]/mdl-select[@class=&quot;mdl-select has-placeholder ng-untouched ng-valid ng-star-inserted ng-dirty&quot;]/div[@class=&quot;mdl-textfield is-upgraded is-focused&quot;]/mdl-popover[@class=&quot;mdl-popover is-visible&quot;]/div[@class=&quot;mdl-list mdl-shadow--6dp&quot;]/mdl-option[@class=&quot;mdl-option__container ng-star-inserted&quot;]/div[@class=&quot;mdl-list__item&quot;]/div[@class=&quot;mdl-list__item-primary-content&quot;]</value>
+      <webElementGuid>8ab1f237-d532-4952-ac46-3e5bf3132cdc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='keyboard_arrow_down'])[3]/following::div[3]</value>
+      <webElementGuid>25e6e684-9f12-4290-94d9-2396672cc51e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='keyboard_arrow_down'])[2]/following::div[6]</value>
+      <webElementGuid>c0fdb778-5553-42c6-bc3d-d37dbbfebb8c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Supports Revisions'])[2]/preceding::div[2]</value>
+      <webElementGuid>97bd9a41-ce0a-4ed6-9373-b63dd992967e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/preceding::div[4]</value>
+      <webElementGuid>8120ea94-b236-4349-be75-e2f2b361f2f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Daily']/parent::*</value>
+      <webElementGuid>04ec476d-74a7-4501-8c4f-9d9fc8817d7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mdl-option/div/div</value>
+      <webElementGuid>a6d401ba-2b32-479e-bd9b-e9857049fb60</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Daily' or . = 'Daily')]</value>
+      <webElementGuid>8f727d25-b367-4e09-97bd-4d3bae69ec9c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

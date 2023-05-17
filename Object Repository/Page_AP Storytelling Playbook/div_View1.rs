@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_View1</name>
+   <tag></tag>
+   <elementGuidId>be0a10d2-53b3-41db-b6d1-af489824527b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.fs14.left.noselect.bold.navigation-item.ellipsis.navigation-item-label.col-5.p-0</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mainPanel']/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>fa28cdaa-6e8b-464e-92af-7f9085e49d03</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fs14 left noselect bold navigation-item ellipsis navigation-item-label col-5 p-0</value>
+      <webElementGuid>3a4fe34a-b821-4eb8-83da-221debd720f2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> View1 </value>
+      <webElementGuid>ec37c0d3-d67b-4369-b6b9-6a37e1db53ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainPanel&quot;)/div[@class=&quot;row mx-0 mtop10 ng-star-inserted&quot;]/div[@class=&quot;fs14 left noselect bold navigation-item ellipsis navigation-item-label col-5 p-0&quot;]</value>
+      <webElementGuid>825ea34d-4d3c-4f96-b15e-6cc6d5b51891</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mainPanel']/div/div</value>
+      <webElementGuid>42fc2aad-0c23-4fb7-904c-892b79ac1e5a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Playbook'])[2]/following::div[10]</value>
+      <webElementGuid>f0ad3f4c-ebf8-45e3-a7a1-c2d560f593df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AP STORYTELLING:'])[1]/following::div[11]</value>
+      <webElementGuid>ac6e813f-f4f5-4da0-aa77-62939bb692e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='New'])[1]/preceding::div[2]</value>
+      <webElementGuid>10c54805-9f5c-4704-abab-7f5aba69aa49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='|'])[1]/preceding::div[3]</value>
+      <webElementGuid>c1752e5d-a16e-4bf3-b6cb-82717610842b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//loader/div/div/div</value>
+      <webElementGuid>df6216ac-652c-4822-bbeb-84affe51675e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' View1 ' or . = ' View1 ')]</value>
+      <webElementGuid>e8424cbe-4fd3-4885-9b9f-9cd1dc9a4768</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

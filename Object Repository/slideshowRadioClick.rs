@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>slideshowRadioClick</name>
+   <tag></tag>
+   <elementGuidId>abbd5704-d6e6-46d9-8760-4b194915a874</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/app-root/main/loader/div/mdl-dialog-host-component/div[2]/create-new-view/div/div[3]/div[3]/div[3]/mdl-radio[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Section Title_icon-ApplicationMenu hand fs22 (1)</name>
+   <tag></tag>
+   <elementGuidId>ffbe1711-4175-41fb-b872-439a36c830b4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.icon-ApplicationMenu.hand.fs22</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//top-bar/div/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>3c053f7f-4d93-488d-931d-25076c0cce41</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icon-ApplicationMenu hand fs22</value>
+      <webElementGuid>a0d77336-b63e-4ca0-a0ea-42a4bb09541b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;playbook-theme multiple-products&quot;]/app-root[1]/main[@class=&quot;ng-star-inserted&quot;]/loader[1]/div[1]/top-bar[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;top-bar-container fixed team-settings&quot;]/div[@class=&quot;hamburger-menu left mright10&quot;]/span[@class=&quot;icon-ApplicationMenu hand fs22&quot;]</value>
+      <webElementGuid>56852b21-55bd-4f3e-b211-b794ab3f8d76</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//top-bar/div/div/span</value>
+      <webElementGuid>0c2b9bb2-e41f-44b5-b692-4dadea3d9995</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Copy to Clipboard (1)</name>
+   <tag></tag>
+   <elementGuidId>f7a96779-42fe-4832-9948-785998bbba4f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='cdk-overlay-0']/external-actions-overlay/div/table/tr[2]/td[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f1b018b7-431f-4407-ac28-79b26b3edf10</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>action-button-label pointer</value>
+      <webElementGuid>69bf2e92-aaed-4596-8de7-7dd41e5d59e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Copy to Clipboard </value>
+      <webElementGuid>ecb76fa7-6e33-473b-9ca4-f66d2edbe00d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cdk-overlay-0&quot;)/external-actions-overlay[1]/div[@class=&quot;overlay-container&quot;]/table[1]/tr[@class=&quot;action-button-cell ng-star-inserted&quot;]/td[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;action-button-label pointer&quot;]</value>
+      <webElementGuid>f27f17e5-631f-4ca6-8218-ad35a725f0a8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cdk-overlay-0']/external-actions-overlay/div/table/tr[2]/td[2]/div</value>
+      <webElementGuid>4ffd3593-e26f-4e93-aa39-9fdd3fdc5832</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/following::div[3]</value>
+      <webElementGuid>719e70f8-9fd3-4152-944f-5472b29617f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='© Associated Press All rights reserved.'])[1]/following::div[13]</value>
+      <webElementGuid>f58182c5-3f1e-4944-b3ac-9cefb9da3445</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Copy to Clipboard']/parent::*</value>
+      <webElementGuid>97eb4f3e-1b86-46ed-9047-3661a0063958</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[2]/div</value>
+      <webElementGuid>10aab720-6c5a-440d-8c89-78f8e5a190d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Copy to Clipboard ' or . = ' Copy to Clipboard ')]</value>
+      <webElementGuid>9d834de3-b15e-476d-af76-fd2251a490fa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_keyboard_arrow_down_mdl-checkbox__tick_794862_1</name>
+   <tag></tag>
+   <elementGuidId>3cde6351-8a20-4046-9a60-9adad1695cec</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.mdl-checkbox__tick-outline</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[3]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>248307ec-497a-46f6-9e7a-1438fd355e09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mdl-checkbox__tick-outline</value>
+      <webElementGuid>4ff56c75-a329-48c1-9391-594d23de0be3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;playbook-theme multiple-products&quot;]/app-root[1]/main[@class=&quot;ng-star-inserted&quot;]/loader[1]/div[1]/main-content[@class=&quot;otouch&quot;]/div[@class=&quot;main-content sidemenu-shrinked&quot;]/manage-publication-channels[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;data-container-wrapper&quot;]/loader[1]/div[@class=&quot;scroll-container&quot;]/pane-container[1]/div[@class=&quot;is-expanded&quot;]/div[@class=&quot;relative left item-container ng-star-inserted&quot;]/div[@class=&quot;left mleft20 main-info-container&quot;]/div[@class=&quot;w70 left row&quot;]/div[@class=&quot;left ellipsis col single-page ng-star-inserted&quot;]/mdl-checkbox[@class=&quot;mdl-checkbox is-upgraded ng-untouched ng-valid ng-star-inserted ng-dirty&quot;]/span[@class=&quot;mdl-checkbox__box-outline&quot;]/span[@class=&quot;mdl-checkbox__tick-outline&quot;]</value>
+      <webElementGuid>137ef2f5-ee7c-480a-a61f-e5d76a2874ef</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[3]/span</value>
+      <webElementGuid>b16c5f4c-22df-4cc2-aebd-80e6d3705981</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

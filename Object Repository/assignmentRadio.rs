@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>assignmentRadio</name>
+   <tag></tag>
+   <elementGuidId>6da5edd4-708c-445e-bb95-50bb0f457ef1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/app-root/main/loader/div/mdl-dialog-host-component/div[2]/create-new-view/div/div[3]/div[3]/div[5]/div[4]/mdl-radio[2]/input</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>/html/body/app-root/main/loader/div/mdl-dialog-host-component/div[2]/create-new-view/div/div[3]/div[3]/div[5]/div[4]/mdl-radio[2][count(. | //*[contains(@class, 'is-checked')]) = count(//*[contains(@class, 'is-checked')])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html/body/app-root/main/loader/div/mdl-dialog-host-component/div[2]/create-new-view/div/div[3]/div[3]/div[5]/div[4]/mdl-radio[2]</value>
+      <webElementGuid>28181df5-ade3-47c9-b5e7-68cde2141954</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>is-checked</value>
+      <webElementGuid>901d47ac-e26a-4a08-b276-e609b814d39b</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

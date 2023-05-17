@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>mdl-radio_Assignments</name>
+   <tag></tag>
+   <elementGuidId>906c27ba-a852-4909-8991-818327430f90</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//mdl-radio[@name='typeGroup'])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>mdl-radio</value>
+      <webElementGuid>f1cfd668-3774-4ed6-9ec3-23537aabf387</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>typeGroup</value>
+      <webElementGuid>50dd81bb-cadd-4243-ac1a-a3b1ad727a32</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fs12 is-upgraded mdl-radio ng-untouched ng-pristine ng-valid</value>
+      <webElementGuid>be99d328-d76f-43f6-bc61-963c204ec6d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Assignments </value>
+      <webElementGuid>901e6505-c9a5-43fd-817d-64c8314ccf2c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;playbook-theme multiple-products&quot;]/app-root[1]/main[@class=&quot;ng-star-inserted&quot;]/loader[1]/div[1]/mdl-dialog-host-component[@class=&quot;create-new-view-dialog mdl-dialog ng-star-inserted open&quot;]/div[@class=&quot;ng-star-inserted&quot;]/create-new-view[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;create-new-view-container&quot;]/div[@class=&quot;left w100 prop-container pright30 pleft30 scrollable&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;left mtop10&quot;]/mdl-radio[@class=&quot;fs12 is-upgraded mdl-radio ng-untouched ng-pristine ng-valid&quot;]</value>
+      <webElementGuid>a84b1689-0ab8-4834-85b6-ba1305f187c4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//mdl-radio[@name='typeGroup'])[2]</value>
+      <webElementGuid>68d28a8d-edcd-4964-8704-ec21e6f773bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Topics'])[1]/following::mdl-radio[1]</value>
+      <webElementGuid>53d62aa0-55c7-491c-a18f-d58960ee60db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Show'])[1]/following::mdl-radio[2]</value>
+      <webElementGuid>3d97d67a-5616-4532-ab22-dba2f2258437</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Layout'])[1]/preceding::mdl-radio[1]</value>
+      <webElementGuid>ece5ae35-1bf4-4a42-82af-2cbd214fa8e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/mdl-radio[2]</value>
+      <webElementGuid>fe43ac43-11a4-45f1-ab96-17ecca81f989</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//mdl-radio[@name = 'typeGroup' and (text() = ' Assignments ' or . = ' Assignments ')]</value>
+      <webElementGuid>ed57d624-534d-4dbe-8d99-5954563eada8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

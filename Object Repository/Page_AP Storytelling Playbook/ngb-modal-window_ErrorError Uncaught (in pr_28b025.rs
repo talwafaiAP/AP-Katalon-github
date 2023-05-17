@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ngb-modal-window_ErrorError Uncaught (in pr_28b025</name>
+   <tag></tag>
+   <elementGuidId>5489d1af-9287-426f-8b48-372b4fc983b3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>ngb-modal-window.d-block.modal.fade.show</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='© Associated Press All rights reserved.'])[1]/following::ngb-modal-window[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ngb-modal-window</value>
+      <webElementGuid>56738c94-9bc2-4c1e-bc7e-d8f1d38d9357</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>dialog</value>
+      <webElementGuid>b753a7ab-3ff9-4a83-bbe7-77f628e7b669</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>78e771a7-ef4b-443c-ac78-563854f0cccd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-modal</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>351ffc99-6685-470d-869b-e522881d2102</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>d-block modal fade show</value>
+      <webElementGuid>c44f908a-e2ca-4895-b070-3aa099c1e54e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Error×Error: Uncaught (in promise): TypeError: Cannot read properties of undefined (reading 'exportFormatTemplate') Learn More❯Restart</value>
+      <webElementGuid>6146556a-0cf7-45f4-811a-afd1d8d5079f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;playbook-theme multiple-products modal-open&quot;]/ngb-modal-window[@class=&quot;d-block modal fade show&quot;]</value>
+      <webElementGuid>1ac49c18-717a-4127-9231-c6c6c7a1a1e3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='© Associated Press All rights reserved.'])[1]/following::ngb-modal-window[1]</value>
+      <webElementGuid>888baea1-687e-49de-aaea-ed392fba78c4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Platform 9.4.0.87'])[1]/following::ngb-modal-window[1]</value>
+      <webElementGuid>dc0d2532-d44b-46e4-9404-a384216efbe3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ngb-modal-window</value>
+      <webElementGuid>e3877d6f-9376-4c48-9068-e494a12113f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//ngb-modal-window[(text() = concat(&quot;Error×Error: Uncaught (in promise): TypeError: Cannot read properties of undefined (reading &quot; , &quot;'&quot; , &quot;exportFormatTemplate&quot; , &quot;'&quot; , &quot;) Learn More❯Restart&quot;) or . = concat(&quot;Error×Error: Uncaught (in promise): TypeError: Cannot read properties of undefined (reading &quot; , &quot;'&quot; , &quot;exportFormatTemplate&quot; , &quot;'&quot; , &quot;) Learn More❯Restart&quot;))]</value>
+      <webElementGuid>2b5a7cd9-e58e-46ff-8d58-fa678a2b2f97</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

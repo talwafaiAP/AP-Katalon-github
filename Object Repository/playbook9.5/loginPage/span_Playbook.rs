@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Playbook</name>
+   <tag></tag>
+   <elementGuidId>c938534c-0af5-4d3d-aacc-ab7fe9d7c4e7</elementGuidId>
+   <imagePath></imagePath>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>mat-toolbar.mat-toolbar.mat-toolbar-single-row > span</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Discover'])[1]/following::span[5]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>337e592a-d08e-464e-9d31-61aee3e18f9a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Playbook</value>
+      <webElementGuid>629db8b5-ab4e-4a48-a103-deeaec770cef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;playbook-theme multiple-products&quot;]/app-root[@class=&quot;st-app-component&quot;]/main[@class=&quot;st-main ng-star-inserted&quot;]/mat-sidenav-container[@class=&quot;mat-drawer-container mat-sidenav-container st-main-container mat-drawer-transition&quot;]/mat-sidenav[@class=&quot;mat-drawer mat-sidenav st-main-sidebar-container ng-tns-c151-3 ng-trigger ng-trigger-transform mat-drawer-side mat-drawer-opened ng-star-inserted&quot;]/div[@class=&quot;mat-drawer-inner-container ng-tns-c151-3&quot;]/side-bar[@class=&quot;st-side-bar ng-tns-c151-3&quot;]/div[@class=&quot;st-side-bar-header-container&quot;]/mat-toolbar[@class=&quot;mat-toolbar mat-toolbar-single-row&quot;]/span[1]</value>
+      <webElementGuid>6615b783-87e0-480d-800a-2284149e680a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Discover'])[1]/following::span[5]</value>
+      <webElementGuid>70f2846e-a931-4512-9da5-40aae21035d2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mobile'])[1]/following::span[7]</value>
+      <webElementGuid>041da94c-42fa-4f4c-a032-5d476c43e88b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Team'])[1]/preceding::span[6]</value>
+      <webElementGuid>114545f8-a8f3-4bd8-a891-9015a74b1ed4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Unassigned'])[1]/preceding::span[12]</value>
+      <webElementGuid>a9a679b7-d952-4b09-9496-8459557b1950</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Playbook']/parent::*</value>
+      <webElementGuid>bc11dd20-eac9-45d4-9187-d5746feb48e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-toolbar/span</value>
+      <webElementGuid>3b1c15c7-e82e-4a7c-ab19-3eac407bda1f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Playbook' or . = 'Playbook')]</value>
+      <webElementGuid>f9a8fb90-6a89-42b6-863b-7f45edb50264</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

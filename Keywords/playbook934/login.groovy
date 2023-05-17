@@ -62,19 +62,19 @@ class login {
 
 	def test() {
 		println('login from Keywords')
-		WebUI.verifyElementPresent(findTestObject('Object Repository/Page_AP Storytelling/input_AP STORYTELLING_mauto block text-inpu_d12e46'),
+		WebUI.verifyElementPresent(findTestObject('Object Repository/sharedObjects/Page_AP Storytelling/input_AP STORYTELLING_mauto block text-inpu_d12e46'),
 				0, FailureHandling.STOP_ON_FAILURE)
 
-		WebUI.setText(findTestObject('Object Repository/Page_AP Storytelling/input_AP STORYTELLING_mauto block text-inpu_d12e46'),
+		WebUI.setText(findTestObject('Object Repository/sharedObjects/Page_AP Storytelling/input_AP STORYTELLING_mauto block text-inpu_d12e46'),
 				GlobalVariable.username)
 
-		WebUI.verifyElementPresent(findTestObject('Object Repository/Page_AP Storytelling/input_AP STORYTELLING_mauto block text-inpu_d12e46_1'),
+		WebUI.verifyElementPresent(findTestObject('Object Repository/sharedObjects/Page_AP Storytelling/input_AP STORYTELLING_mauto block text-inpu_d12e46_1'),
 				0, FailureHandling.STOP_ON_FAILURE)
 
-		WebUI.setEncryptedText(findTestObject('Object Repository/Page_AP Storytelling/input_AP STORYTELLING_mauto block text-inpu_d12e46_1'),
+		WebUI.setEncryptedText(findTestObject('Object Repository/sharedObjects/Page_AP Storytelling/input_AP STORYTELLING_mauto block text-inpu_d12e46_1'),
 				GlobalVariable.password)
 
-		WebUI.click(findTestObject('Object Repository/Page_AP Storytelling/button_Login'))
+		WebUI.click(findTestObject('Object Repository/sharedObjects/Page_AP Storytelling/button_Login'))
 
 		def playbookVerify='Object Repository/Page_AP Storytelling/span_Playbook'
 

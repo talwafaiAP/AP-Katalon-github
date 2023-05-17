@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='AP STORYTELLING'])[1]/following::button[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Remember my username on this device'])[1]/following::button[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>9c115943-731b-48c8-b75b-d66f7ea3c575</webElementGuid>
+      <webElementGuid>e0e1a1d3-7009-40fe-bac8-da67e253cca4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>app-login-button mtop80</value>
-      <webElementGuid>c736df78-c3fa-4e4f-8995-cf4abd02ab9f</webElementGuid>
+      <webElementGuid>05e38409-8680-45db-b6e7-10e65c04cfdf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Login</value>
-      <webElementGuid>5194442e-70ff-4fec-bd30-1cdee7966200</webElementGuid>
+      <webElementGuid>9a040571-8584-478b-a8ee-8f6a836bed9b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;playbook-theme&quot;]/app-root[1]/login[1]/div[@class=&quot;login-container multiple-products&quot;]/loader[@class=&quot;login-loader&quot;]/div[@class=&quot;login-form&quot;]/table[@class=&quot;login-controls-container&quot;]/tr[2]/td[1]/button[@class=&quot;app-login-button mtop80&quot;]</value>
-      <webElementGuid>f0846143-76ce-40c3-b958-a17ec704ef36</webElementGuid>
+      <webElementGuid>58b358ed-15d3-43f2-9568-d85c90d5d111</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Remember my username on this device'])[1]/following::button[1]</value>
-      <webElementGuid>1f2c5f29-fa24-4d05-9c8f-7259fb8337c5</webElementGuid>
+      <webElementGuid>faa719d2-679e-4a0a-bbc4-0557bf4923da</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='AP STORYTELLING'])[1]/following::button[1]</value>
-      <webElementGuid>88f7f313-28e2-4868-9543-d5696373d30a</webElementGuid>
+      <webElementGuid>4e83bcde-a42c-4bab-8dce-bbbef94671ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='© Associated Press. All rights reserved.'])[1]/preceding::button[1]</value>
-      <webElementGuid>f8ecc26b-1389-4ba8-8fa8-932b9a040df9</webElementGuid>
+      <webElementGuid>fa310796-c003-4cd2-ac07-00484e26d391</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Login']/parent::*</value>
-      <webElementGuid>ad411d64-ee45-4b2d-acc9-202a20f5eae3</webElementGuid>
+      <webElementGuid>320a2c27-eca8-4682-a588-b2abcfe126a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>1c4bedb4-af54-4d9c-8bec-b8955f3e9c72</webElementGuid>
+      <webElementGuid>1f3e6e0d-95da-408c-a4c2-2847bd342d13</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Login' or . = 'Login')]</value>
-      <webElementGuid>38591a3a-55cb-4074-9a47-57ce2ed9eec3</webElementGuid>
+      <webElementGuid>a9fc013b-1ff3-4fca-993b-378791d594f5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

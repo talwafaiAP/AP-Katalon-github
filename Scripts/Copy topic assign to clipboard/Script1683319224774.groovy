@@ -17,27 +17,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-def URL = GlobalVariable.protocol + '://' + GlobalVariable.server + '/apstorytelling/'
-WebUI.openBrowser(URL)
-WebUI.maximizeWindow()
-switch(GlobalVariable.playbookVersion) {   
-	case 9.5: CustomKeywords.'playbook95.login.test'(); break;
-	case 9.34: CustomKeywords.'playbook934.login.test'(); break;
-	default: CustomKeywords.'playbook94.login.test'(); break;
- }
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('http://lonenpsdevqa53/apstorytelling/#/login')
+
+WebUI.setText(findTestObject('Object Repository/Page_AP Storytelling/input_AP STORYTELLING_mauto block text-inpu_d12e46 (7) (1)'), 
+    'administrator')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_AP Storytelling/input_AP STORYTELLING_mauto block text-inpu_26a78b (5) (1)'), 
+    'xSsKH/5z2FOPt3ox77z3yw==')
+
+WebUI.sendKeys(findTestObject('Object Repository/Page_AP Storytelling/input_AP STORYTELLING_mauto block text-inpu_26a78b (5) (1)'), 
+    Keys.chord(Keys.ENTER))
+
+WebUI.click(findTestObject('Object Repository/Page_AP Storytelling Playbook/mat-icon_more_horiz'))
+
+WebUI.click(findTestObject('Object Repository/Page_AP Storytelling Playbook/div_Copy to Clipboard (1)'))
+
+WebUI.waitForElementPresent(findTestObject('Object Repository/Page_AP Storytelling Playbook/h4_Error'), 0)
+
 WebUI.closeBrowser()
-
-
-
-// Javascript
-//document.evaluate('/html/head/script[4]/text()', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.data.slice(6966,6969)
-//println(WebUI.executeJavaScript("return document.evaluate('/html/head/script[4]/text()', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.data.slice(6966,6969)", null))
-//String js = 'function x(){return document.evaluate(\'/html/head/script[4]/text()\', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue.data.slice(6966,6969)};x();'
-//
-//String result = WebUI.executeJavaScript(js, null)
-//
-//println(result)
-
-//WebUI.click(findTestObject('Object Repository/Page_AP Storytelling/input_AP STORYTELLING_mauto block text-inpu_d12e46'))
-
 

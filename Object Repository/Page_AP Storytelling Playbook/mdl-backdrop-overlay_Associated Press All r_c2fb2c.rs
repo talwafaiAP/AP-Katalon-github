@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>mdl-backdrop-overlay_Associated Press All r_c2fb2c</name>
+   <tag></tag>
+   <elementGuidId>bfdea463-81e1-4d17-8a96-7e5981e1add1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>mdl-backdrop-overlay.dialog-backdrop.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mdl-backdrop-overlay</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>mdl-backdrop-overlay</value>
+      <webElementGuid>3fe2c483-d48c-49e5-996b-9072c49d6ff4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dialog-backdrop ng-star-inserted</value>
+      <webElementGuid>8b5dea3c-3c9b-45b8-b190-7d6ec7962ec0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;playbook-theme multiple-products&quot;]/app-root[1]/main[@class=&quot;ng-star-inserted&quot;]/loader[1]/div[1]/mdl-backdrop-overlay[@class=&quot;dialog-backdrop ng-star-inserted&quot;]</value>
+      <webElementGuid>a5245619-77a7-439e-9d28-a69525b8248d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mdl-backdrop-overlay</value>
+      <webElementGuid>cb14b594-001b-492b-96e1-dff8bb2ea661</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

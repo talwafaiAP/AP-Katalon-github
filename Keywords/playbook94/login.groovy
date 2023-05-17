@@ -42,46 +42,54 @@ import java.time.format.DateTimeFormatter as DateTimeFormatter
 import java.text.SimpleDateFormat as SimpleDateFormat
 
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-//import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-//import com.kms.katalon.core.model.FailureHandling as FailureHandling
-//import com.kms.katalon.core.testcase.TestCase as TestCase
-//import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
-//import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-//import internal.GlobalVariable as GlobalVariable
+
+
 import org.openqa.selenium.Keys as Keys
+//import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+//import com.kms.katalon.core.model.FailureHandling as FailureHandling
+//import com.kms.katalon.core.testcase.TestCase as TestCase
+//import com.kms.katalon.core.testdata.TestData as TestData
+//import com.kms.katalon.core.testobject.TestObject as TestObject
+//import internal.GlobalVariable as GlobalVariable
 
 class login {
 
+
 	def test() {
 		println('login from Keywords')
-		WebUI.verifyElementPresent(findTestObject('Object Repository/Page_AP Storytelling/input_AP STORYTELLING_mauto block text-inpu_d12e46'),
+		WebUI.verifyElementPresent(findTestObject('Object Repository/sharedObjects/Page_AP Storytelling/input_AP STORYTELLING_mauto block text-inpu_d12e46'),
 				0, FailureHandling.STOP_ON_FAILURE)
 
-		WebUI.setText(findTestObject('Object Repository/Page_AP Storytelling/input_AP STORYTELLING_mauto block text-inpu_d12e46'),
+		WebUI.setText(findTestObject('Object Repository/sharedObjects/Page_AP Storytelling/input_AP STORYTELLING_mauto block text-inpu_d12e46'),
 				GlobalVariable.username)
 
-		WebUI.verifyElementPresent(findTestObject('Object Repository/Page_AP Storytelling/input_AP STORYTELLING_mauto block text-inpu_d12e46_1'),
+		WebUI.verifyElementPresent(findTestObject('Object Repository/sharedObjects/Page_AP Storytelling/input_AP STORYTELLING_mauto block text-inpu_d12e46_1'),
 				0, FailureHandling.STOP_ON_FAILURE)
 
-		WebUI.setEncryptedText(findTestObject('Object Repository/Page_AP Storytelling/input_AP STORYTELLING_mauto block text-inpu_d12e46_1'),
+		WebUI.setEncryptedText(findTestObject('Object Repository/sharedObjects/Page_AP Storytelling/input_AP STORYTELLING_mauto block text-inpu_d12e46_1'),
 				GlobalVariable.password)
 
-		WebUI.click(findTestObject('Object Repository/Page_AP Storytelling/button_Login'))
-
+		WebUI.click(findTestObject('Object Repository/sharedObjects/Page_AP Storytelling/button_Login'))
+		println('login button clicked')
 		def playbookVerify='Object Repository/Page_AP Storytelling/span_Playbook'
+		println('playbookVerify: ')
+		println(playbookVerify)
 
 		//WebUI.verifyElementText(findTestObject(playbookVerify), 'Playbook', FailureHandling.STOP_ON_FAILURE)
 
 		//WebUI.takeScreenshot(GlobalVariable.screenshotPath)
 
 		if (WebUI.waitForElementPresent(findTestObject(playbookVerify), 1000, FailureHandling.STOP_ON_FAILURE)) {
-
+			println('inside if(playbookVerify) -----')
+			//			CustomKeywords.'sharedKeywords.screenshot.take'();
+			//			def fileName='Login-Success-';
+			//			CustomKeywords.'sharedKeywords.screenshot.take'(fileName);
 			//Get current date time
 			LocalDateTime now = LocalDateTime.now();
 			DateTimeFormatter formatter = DateTimeFormatter.ofPattern("M-dd-yyyy_HH-mm-ss");
@@ -89,9 +97,9 @@ class login {
 			String screenshotPath= GlobalVariable.screenshotPath +File.separator + GlobalVariable.profileName+ File.separator+ 'Login-Success-'+ formatDateTime+'(CST).png'
 
 			println(screenshotPath)
-
+			println('before screenshot')
 			WebUI.takeScreenshot(screenshotPath)
-
+			println('screenshot DONE')
 			println('\n-- LOGGED IN SUCCESSFULLY --\n')
 		} else {
 			println('xxxxxxxxxxxxxxxxxx LOGIN FAILED  xxxxxxxxxxxxxxxxx')
