@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Fail</description>
-   <name>Help</name>
+   <name>Access Help Menu Option</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>66281177-36ec-4ec4-b89d-f71bfa6ffa62</testCaseGuid>

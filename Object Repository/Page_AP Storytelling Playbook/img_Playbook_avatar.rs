@@ -14,7 +14,7 @@
          <value>//div/img</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>3b26d389-9fc5-4f57-ad27-0edce095ff79</webElementGuid>
+      <webElementGuid>743073cd-f1f0-48d1-934c-a66e9b9bd405</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>decoding</name>
       <type>Main</type>
       <value>async</value>
-      <webElementGuid>19278c0a-607a-49de-a733-bd738badfe2c</webElementGuid>
+      <webElementGuid>ffaa97ce-4310-494f-99b5-363304d90311</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>avatar</value>
-      <webElementGuid>a7ecfb23-7753-4dae-9bf5-e8b75eec414e</webElementGuid>
+      <webElementGuid>6f98cd37-858c-4ecb-93f2-7d72d2b7f7d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>src</name>
       <type>Main</type>
       <value>https://LONENPSDEVQA53/NOMWebServices3JSON/api/Avatar?userid=ADMINISTRATOR&amp;ts=1683230138676</value>
-      <webElementGuid>3d8eeed4-425b-400a-9d9b-0eaaf115b845</webElementGuid>
+      <webElementGuid>e570015b-fca0-4cd4-8b88-aefc067df2c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;playbook-theme multiple-products&quot;]/app-root[1]/main[@class=&quot;ng-star-inserted&quot;]/loader[1]/div[1]/top-bar[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;top-bar-container fixed&quot;]/div[@class=&quot;right&quot;]/avatar[@class=&quot;top-bar-avatar right ng-star-inserted&quot;]/div[@class=&quot;relative ng-star-inserted&quot;]/img[@class=&quot;avatar&quot;]</value>
-      <webElementGuid>68345cc8-2896-4d8d-bde0-71ffa0e1fd94</webElementGuid>
+      <webElementGuid>4c1f4a7b-6899-4cbb-a163-e963e9239d35</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/img</value>
-      <webElementGuid>e38355b1-1491-4bc7-98ee-b79195f018ae</webElementGuid>
+      <webElementGuid>05c8426f-a413-4eb4-9a78-e1e04f848b08</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = 'https://LONENPSDEVQA53/NOMWebServices3JSON/api/Avatar?userid=ADMINISTRATOR&amp;ts=1683230138676']</value>
-      <webElementGuid>26ae2cbe-c4a2-4831-9c81-c71979da90ef</webElementGuid>
+      <webElementGuid>866bbf36-05cd-4abe-b1b7-0c49e163bff3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = 'http://LONENPSDEVQA53/NOMWebServices3JSON/api/Avatar?userid=ADMINISTRATOR&amp;ts=1682982300194']</value>
-      <webElementGuid>8f2992a2-107e-46ae-879b-1fb27cb10c5f</webElementGuid>
+      <webElementGuid>b7851759-9948-4170-9456-57c9a08148fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = 'http://LONENPSDEVQA53/NOMWebServices3JSON/api/Avatar?userid=ADMINISTRATOR&amp;ts=1682962478565']</value>
-      <webElementGuid>76dc8f1b-623a-44e2-9a32-50ea47af9da8</webElementGuid>
+      <webElementGuid>9e20c6bb-78c8-4a62-bf2b-c37044bc66fc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_System Administrator_mright10 w25 ellip_1297d3</name>
+   <tag></tag>
+   <elementGuidId>a1693f57-1739-4605-9049-800505dcccf2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mainPanel']/div[4]/playbook-card-view/div/div/div/card-group/pane-container/div[3]/div[3]/div/div/div[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>38fe7240-e4e0-4906-a6ed-405637bebe9c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mright10 w25 ellipsis text-center</value>
+      <webElementGuid>e23f0360-80f9-4dc9-bfe9-de888871596f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainPanel&quot;)/div[@class=&quot;ng-star-inserted&quot;]/playbook-card-view[1]/div[@class=&quot;list-items-container left-scrollable otouch ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/card-group[1]/pane-container[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;is-expanded&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;mbottom10 assignment-list-item mleft5 ng-star-inserted&quot;]/div[@class=&quot;w100 pleft10 pright10 topic-title pointer&quot;]/div[@class=&quot;mright10 w25 ellipsis text-center&quot;]</value>
+      <webElementGuid>b8832f6e-3a00-49a3-b00b-d73de224a905</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mainPanel']/div[4]/playbook-card-view/div/div/div/card-group/pane-container/div[3]/div[3]/div/div/div[3]</value>
+      <webElementGuid>4f1954b2-8d60-4358-8e13-8b82f01267b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='System Administrator'])[2]/following::div[1]</value>
+      <webElementGuid>a72b5942-c174-4b4b-b1f1-36225626de83</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Team view FIXED assign'])[2]/following::div[2]</value>
+      <webElementGuid>0314afde-3533-47dd-9e65-06ed27879fd3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Journalist'])[4]/preceding::div[2]</value>
+      <webElementGuid>45a95bf5-4ffc-4669-9f2e-c4567ab6acc0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Title'])[2]/preceding::div[11]</value>
+      <webElementGuid>aaa82d10-db12-4ffa-88de-aeeed69bbbe4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div[3]</value>
+      <webElementGuid>17a20303-78f0-4c98-8858-60ff117fb968</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

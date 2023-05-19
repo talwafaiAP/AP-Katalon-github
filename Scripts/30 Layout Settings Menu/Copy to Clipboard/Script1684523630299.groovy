@@ -17,18 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Login (no close browser)'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('http://lonenpsdevqa53/apstorytelling/#/login')
-
-WebUI.setText(findTestObject('Object Repository/Page_AP Storytelling/input_AP STORYTELLING_mauto block text-inpu_d12e46 (7) (1)'), 
-    'administrator')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_AP Storytelling/input_AP STORYTELLING_mauto block text-inpu_26a78b (5) (1)'), 
-    'xSsKH/5z2FOPt3ox77z3yw==')
-
-WebUI.sendKeys(findTestObject('Object Repository/Page_AP Storytelling/input_AP STORYTELLING_mauto block text-inpu_26a78b (5) (1)'), 
-    Keys.chord(Keys.ENTER))
+//WebUI.openBrowser('')
+//
+//WebUI.navigateToUrl('http://lonenpsdevqa53/apstorytelling/#/login')
+//
+//WebUI.setText(findTestObject('Object Repository/Page_AP Storytelling/input_AP STORYTELLING_mauto block text-inpu_d12e46 (7) (1)'), 
+//    'administrator')
+//
+//WebUI.setEncryptedText(findTestObject('Object Repository/Page_AP Storytelling/input_AP STORYTELLING_mauto block text-inpu_26a78b (5) (1)'), 
+//    'xSsKH/5z2FOPt3ox77z3yw==')
+//
+//WebUI.sendKeys(findTestObject('Object Repository/Page_AP Storytelling/input_AP STORYTELLING_mauto block text-inpu_26a78b (5) (1)'), 
+//    Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('Object Repository/Page_AP Storytelling Playbook/mat-icon_more_horiz'))
 

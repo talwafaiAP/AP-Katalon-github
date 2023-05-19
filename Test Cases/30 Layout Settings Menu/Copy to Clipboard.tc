@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Fail</description>
-   <name>Copy topic assign to clipboard</name>
+   <name>Copy to Clipboard</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>4de69f00-0521-4427-bd66-c1a14c6aa646</testCaseGuid>

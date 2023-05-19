@@ -7,14 +7,14 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div.hand.mbottom10 > span</value>
+         <value>body > app-root > main > loader > div > top-bar-user-menu > div > div:nth-child(2) > table > tr > td:nth-child(1) > div > div:nth-child(1) > span</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='System'])[1]/following::span[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>d18d5116-f976-4944-8de8-b0bfd1266a59</webElementGuid>
+      <webElementGuid>a3cae78a-ffea-48fb-b3f8-0e89f458fa1e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>title</name>
       <type>Main</type>
       <value>Notifications</value>
-      <webElementGuid>b5cc5993-be0b-41a7-abd3-aa546df79ba3</webElementGuid>
+      <webElementGuid>8cdde346-b537-4688-acfd-eeeb56f2af37</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Notifications</value>
-      <webElementGuid>7fd67cde-b226-42ac-a963-de2f392e2eaa</webElementGuid>
+      <webElementGuid>877f2445-b499-4323-a7b0-4c7b05854ab5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;playbook-theme multiple-products&quot;]/app-root[1]/main[@class=&quot;ng-star-inserted&quot;]/loader[1]/div[1]/top-bar-user-menu[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;top-bar-user-menu-container mtop52 mright30 transition&quot;]/div[2]/table[@class=&quot;transition&quot;]/tr[1]/td[1]/div[@class=&quot;user-menu-options mleft30 fs16 left&quot;]/div[@class=&quot;hand mbottom10&quot;]/span[1]</value>
-      <webElementGuid>9432c963-65aa-4ab1-8421-82be6cf20350</webElementGuid>
+      <webElementGuid>aa79534d-9406-4563-bd32-be62a7754494</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='System'])[1]/following::span[1]</value>
-      <webElementGuid>a07c6e96-61f8-4f93-988d-a50790fc33c2</webElementGuid>
+      <webElementGuid>ce44b447-5c6a-4750-8871-6d91e9ecc8f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='System Administrator'])[1]/following::span[1]</value>
-      <webElementGuid>e81dffdf-b9bb-40f1-8e62-3ba230b32608</webElementGuid>
+      <webElementGuid>03f5ede8-92ba-4c1f-a254-e7595651648d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='arrow_forward'])[1]/preceding::span[1]</value>
-      <webElementGuid>352a317f-aeb1-4909-8baf-3e769560c482</webElementGuid>
+      <webElementGuid>eec19d36-9ab1-4308-a22c-fa667a98d68c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Region and Language'])[1]/preceding::span[1]</value>
-      <webElementGuid>6b77ff82-2482-4a66-9073-8430aa4faf92</webElementGuid>
+      <webElementGuid>4c45077d-07af-4078-b3df-d9374c7901ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Notifications']/parent::*</value>
-      <webElementGuid>a5ad0d6c-74cd-49ba-a46a-3abc5995c85f</webElementGuid>
+      <webElementGuid>d16dc64f-4dd0-4dac-b508-29f9eceb474c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td/div/div/span</value>
-      <webElementGuid>d66d43e4-ad6a-4e79-b6c2-4be07d3c4287</webElementGuid>
+      <webElementGuid>eb84337f-e868-476f-acce-b73ca085b3f3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Notifications' or . = 'Notifications')]</value>
-      <webElementGuid>05f64066-f7ff-49b5-8acf-d2c9275fb806</webElementGuid>
+      <webElementGuid>6fb98e8f-6c92-421e-b015-2381781aa67f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='mat-menu-panel-0']/div/div[2]/button/span/span</value>
-      <webElementGuid>ec7fe688-393a-4cef-aeee-0d5b63302425</webElementGuid>
+      <webElementGuid>765894ed-0458-4547-8a93-65e21082417d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Doe1 Jane'])[1]/following::span[3]</value>
-      <webElementGuid>ca2a1575-4751-48c6-8c7c-fe9ab4cbe73a</webElementGuid>
+      <webElementGuid>a6a79006-e051-4199-b690-443f23e5ad00</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[2]/following::span[7]</value>
-      <webElementGuid>dad80b12-f58b-440a-b846-8449d26954f4</webElementGuid>
+      <webElementGuid>278c3ecb-8c2d-46a1-8a84-7697dd808098</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +134,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Team Members'])[1]/preceding::span[3]</value>
-      <webElementGuid>bd3b8806-be88-4d10-afae-bd4696f374dd</webElementGuid>
+      <webElementGuid>80b95f1a-0809-43b6-8c08-33a327d72534</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +142,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button/span/span</value>
-      <webElementGuid>4e6893f8-0c49-4987-aacb-6f247884f398</webElementGuid>
+      <webElementGuid>98e548c1-4b32-4486-a586-b0ededb22cf8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,6 +150,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[@title = 'Notifications' and (text() = 'Notifications' or . = 'Notifications')]</value>
-      <webElementGuid>7224b2a0-c38c-4f6d-afa1-5825442dfb3c</webElementGuid>
+      <webElementGuid>41c0ed50-bebc-465a-9149-764c75ca7868</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

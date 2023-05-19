@@ -40,5 +40,5 @@ WebUI.verifyElementText(findTestObject('Object Repository/Page_404 - File or dir
 
 WebUI.takeScreenshot('C:\\playbook94\\Help\\pass.png')
 
-WebUI.closeBrowser()
+not_run: WebUI.closeBrowser()
 
