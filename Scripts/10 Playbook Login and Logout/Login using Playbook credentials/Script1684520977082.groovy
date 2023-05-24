@@ -32,5 +32,5 @@ WebUI.sendKeys(findTestObject('Object Repository/Page_AP Storytelling/input_AP S
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_AP Storytelling Playbook/span_Playbook (1)'), 'Playbook')
 
-WebUI.closeBrowser()
+WebUI.callTestCase(findTestCase('Logout and close browser (partial)'), [:], FailureHandling.STOP_ON_FAILURE)
 

@@ -17,34 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.callTestCase(findTestCase('Login (partial)'), [:], FailureHandling.STOP_ON_FAILURE)
 
-
-
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('http://lonenpsdevqa53/apstorytelling/#/login')
-
-WebUI.setText(findTestObject('Object Repository/Page_AP Storytelling/input_AP STORYTELLING_mauto block text-inpu_d12e46 (2)'), 
-    'administrator')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_AP Storytelling/input_AP STORYTELLING_mauto block text-inpu_26a78b (1)'), 
-    'xSsKH/5z2FOPt3ox77z3yw==')
-
-WebUI.click(findTestObject('Object Repository/Page_AP Storytelling/button_Login (2)'))
-
-WebUI.click(findTestObject('Object Repository/Page_AP Storytelling Playbook/img_Playbook_avatar (2) (1)'))
+WebUI.click(findTestObject('Page_AP Storytelling Playbook/img_Playbook_avatar'))
 
 WebUI.click(findTestObject('Object Repository/Page_AP Storytelling Playbook/div_Manage Publication Channels (1) (1)'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_AP Storytelling Playbook/div_Manage Publication Channels (2)'), 
     'Manage Publication Channels')
 
-def itemsBefore= WebUI.getText(findTestObject('Object Repository/Page_AP Storytelling Playbook/div_6'))
+def itemsBefore = WebUI.getText(findTestObject('Object Repository/Page_AP Storytelling Playbook/div_6'))
+
 println(itemsBefore.toInteger())
 
 WebUI.click(findTestObject('Object Repository/Page_AP Storytelling Playbook/span_New (1) (1)'))
 
-String channelName= (itemsBefore.toInteger()+1) + ' Pub channel';
+String channelName = (itemsBefore.toInteger() + 1) + ' Pub channel'
+
 WebUI.setText(findTestObject('Object Repository/Page_AP Storytelling Playbook/input_Edition Names_w100 ellipsis new-item-_f47a4d (1)'), 
     channelName)
 
@@ -66,10 +55,12 @@ WebUI.setText(findTestObject('Object Repository/Page_AP Storytelling Playbook/in
 
 WebUI.click(findTestObject('Object Repository/Page_AP Storytelling Playbook/button_Save (1) (1)'))
 
-def itemsAfter= WebUI.getText(findTestObject('Object Repository/Page_AP Storytelling Playbook/div_6'))
+def itemsAfter = WebUI.getText(findTestObject('Object Repository/Page_AP Storytelling Playbook/div_6'))
+
 println(itemsAfter.toInteger())
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_AP Storytelling Playbook/div_6'), (itemsBefore.toInteger()+1).toString())
+WebUI.verifyElementText(findTestObject('Object Repository/Page_AP Storytelling Playbook/div_6'), (itemsBefore.toInteger() + 
+    1).toString())
 
-WebUI.closeBrowser()
+WebUI.callTestCase(findTestCase('Logout and close browser (partial)'), [:], FailureHandling.STOP_ON_FAILURE)
 

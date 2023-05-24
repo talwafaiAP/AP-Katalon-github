@@ -20,20 +20,9 @@ import javax.script.*
 import org.openqa.selenium.WebElement as WebElement
 import org.apache.groovy.util.Arrays.*
 
+WebUI.callTestCase(findTestCase('Login (partial)'), [:], FailureHandling.STOP_ON_FAILURE)
+
 String viewName = 'SingleView-Assignment'
-
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('http://lonenpsdevqa53/apstorytelling/#/login')
-
-WebUI.setText(findTestObject('Object Repository/Page_AP Storytelling/input_AP STORYTELLING_mauto block text-inpu_d12e46 (8)'), 
-    'administrator')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_AP Storytelling/input_AP STORYTELLING_mauto block text-inpu_26a78b (6)'), 
-    'xSsKH/5z2FOPt3ox77z3yw==')
-
-WebUI.sendKeys(findTestObject('Object Repository/Page_AP Storytelling/input_AP STORYTELLING_mauto block text-inpu_26a78b (6)'), 
-    Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('Object Repository/Page_AP Storytelling Playbook/span_View3 assignments_icon-ApplicationMenu_ae05cc'))
 
@@ -75,8 +64,5 @@ for (def i = 1; i <= viewElementsCount; i++) {
     println(viewText)
 }
 
-
-
-//WebUI.verifyElementText(findTestObject('viewVerify'), viewName)
-WebUI.closeBrowser()
+WebUI.callTestCase(findTestCase('Logout and close browser (partial)'), [:], FailureHandling.STOP_ON_FAILURE)
 

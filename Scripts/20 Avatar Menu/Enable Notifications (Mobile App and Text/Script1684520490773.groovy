@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login (no close browser)'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Login (partial)'), [:], FailureHandling.STOP_ON_FAILURE)
 
 //WebUI.openBrowser('')
 //
@@ -30,7 +30,6 @@ WebUI.callTestCase(findTestCase('Login (no close browser)'), [:], FailureHandlin
 //    'xSsKH/5z2FOPt3ox77z3yw==')
 //
 //WebUI.click(findTestObject('Object Repository/Page_AP Storytelling Playbook/button_Login'))
-
 WebUI.click(findTestObject('Object Repository/Page_AP Storytelling Playbook/img_Playbook_avatar'))
 
 WebUI.click(findTestObject('Object Repository/Page_AP Storytelling Playbook/span_Notifications'))
@@ -39,8 +38,8 @@ WebUI.click(findTestObject('Page_AP Storytelling/notificationMobile_Check'))
 
 WebUI.click(findTestObject('Page_AP Storytelling/notificationText_Check'))
 
-WebUI.takeScreenshot(((((('c:' + File.separator) + 'Playbook94') + File.separator) + 'notifications') + File.separator) + 
+not_run: WebUI.takeScreenshot(((((('c:' + File.separator) + 'Playbook94') + File.separator) + 'notifications') + File.separator) + 
     'pass.png')
 
-WebUI.closeBrowser()
+WebUI.callTestCase(findTestCase('Logout and close browser (partial)'), [:], FailureHandling.STOP_ON_FAILURE)
 

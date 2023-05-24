@@ -17,17 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('http://lonenpsdevqa53/apstorytelling/#/login')
-
-WebUI.setText(findTestObject('Object Repository/Page_AP Storytelling/input_AP STORYTELLING_mauto block text-inpu_d12e46 (3)'), 
-    'administrator')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_AP Storytelling/input_AP STORYTELLING_mauto block text-inpu_00ca07'), 
-    'xSsKH/5z2FOPt3ox77z3yw==')
-
-WebUI.click(findTestObject('Object Repository/Page_AP Storytelling/button_Login (3)'))
+WebUI.callTestCase(findTestCase('Login (partial)'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Page_AP Storytelling Playbook/img_Playbook_avatar (3)'))
 
@@ -52,5 +42,5 @@ WebUI.setText(findTestObject('Object Repository/Page_AP Storytelling Playbook/in
 
 WebUI.click(findTestObject('Object Repository/Page_AP Storytelling Playbook/span_keyboard_arrow_down_mdl-checkbox__tick_794862_1'))
 
-WebUI.closeBrowser()
+WebUI.callTestCase(findTestCase('Logout and close browser (partial)'), [:], FailureHandling.STOP_ON_FAILURE)
 

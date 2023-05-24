@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login (no close browser)'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Login (partial)'), [:], FailureHandling.STOP_ON_FAILURE)
 
 //WebUI.openBrowser('')
 //
@@ -31,12 +31,11 @@ WebUI.callTestCase(findTestCase('Login (no close browser)'), [:], FailureHandlin
 //
 //WebUI.sendKeys(findTestObject('Object Repository/Page_AP Storytelling/input_AP STORYTELLING_mauto block text-inpu_26a78b (5) (1)'), 
 //    Keys.chord(Keys.ENTER))
-
 WebUI.click(findTestObject('Object Repository/Page_AP Storytelling Playbook/mat-icon_more_horiz'))
 
 WebUI.click(findTestObject('Object Repository/Page_AP Storytelling Playbook/div_Copy to Clipboard (1)'))
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Page_AP Storytelling Playbook/h4_Error'), 0)
 
-WebUI.closeBrowser()
+WebUI.callTestCase(findTestCase('Logout and close browser (partial)'), [:], FailureHandling.STOP_ON_FAILURE)
 

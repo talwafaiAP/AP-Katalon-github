@@ -17,13 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login (partial)'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/Page_AP Storytelling Playbook/img_Playbook_avatar'))
 
-WebUI.click(findTestObject('Page_AP Storytelling Playbook/img_Playbook_avatar'))
+WebUI.click(findTestObject('Object Repository/Page_AP Storytelling Playbook/div_Sign Out'))
 
-WebUI.click(findTestObject('Object Repository/Page_AP Storytelling Playbook/div_Error making request System.NullReferen_69d764'))
+WebUI.waitForElementPresent(findTestObject('Object Repository/Page_AP Storytelling/input_AP STORYTELLING_mauto block text-inpu_d12e46'), 
+    30)
 
-WebUI.click(findTestObject('Object Repository/Page_AP Storytelling Playbook/div_Ok'))
-
-WebUI.callTestCase(findTestCase('Logout and close browser (partial)'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.closeBrowser()
 

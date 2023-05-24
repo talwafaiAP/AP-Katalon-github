@@ -2,7 +2,7 @@
 <TestCaseEntity>
    <description>Fail</description>
    <name>Access Help Menu Option</name>
-   <tag></tag>
+   <tag>fix</tag>
    <comment></comment>
    <testCaseGuid>66281177-36ec-4ec4-b89d-f71bfa6ffa62</testCaseGuid>
 </TestCaseEntity>

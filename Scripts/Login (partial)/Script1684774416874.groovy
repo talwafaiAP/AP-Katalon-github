@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('http://lonenpsdevqa53/apstorytelling/#/login')
 
+WebUI.maximizeWindow()
+
 WebUI.setText(findTestObject('Object Repository/Page_AP Storytelling/input_AP STORYTELLING_mauto block text-inpu_d12e46'), 
     'Administrator')
 
@@ -27,3 +29,4 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_AP Storytelling/in
 
 WebUI.sendKeys(findTestObject('Object Repository/Page_AP Storytelling/input_AP STORYTELLING_mauto block text-inpu_d12e46_1'), 
     Keys.chord(Keys.ENTER))
+

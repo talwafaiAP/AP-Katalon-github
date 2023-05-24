@@ -20,20 +20,9 @@ import javax.script.*
 import org.openqa.selenium.WebElement as WebElement
 import org.apache.groovy.util.Arrays.*
 
+WebUI.callTestCase(findTestCase('Login (partial)'), [:], FailureHandling.STOP_ON_FAILURE)
+
 String viewName = 'Slideshow-'
-
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('http://lonenpsdevqa53/apstorytelling/#/login')
-
-WebUI.setText(findTestObject('Object Repository/Page_AP Storytelling/input_AP STORYTELLING_mauto block text-inpu_d12e46 (8)'), 
-    'administrator')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_AP Storytelling/input_AP STORYTELLING_mauto block text-inpu_26a78b (6)'), 
-    'xSsKH/5z2FOPt3ox77z3yw==')
-
-WebUI.sendKeys(findTestObject('Object Repository/Page_AP Storytelling/input_AP STORYTELLING_mauto block text-inpu_26a78b (6)'), 
-    Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('Object Repository/Page_AP Storytelling Playbook/span_View3 assignments_icon-ApplicationMenu_ae05cc'))
 
@@ -45,17 +34,16 @@ WebUI.setText(findTestObject('Object Repository/Page_AP Storytelling Playbook/in
 
 //WebUI.click(findTestObject('assignRadioClick'), FailureHandling.STOP_ON_FAILURE)
 //WebUI.verifyElementPresent(findTestObject('assignmentRadio'), 0)
-
 WebUI.click(findTestObject('slideshowRadioClick'))
 
 //WebUI.click(findTestObject(null))
-WebUI.executeJavaScript(("return document.querySelector('body > app-root > main > loader > div > mdl-dialog-host-component > div.ng-star-inserted > create-new-view > div > div.left.w100.prop-container.pright30.pleft30.scrollable > div:nth-child(13) > viewstates-list > mdl-list > mdl-list-item:nth-child(1) > mdl-list-item-primary-content > mdl-checkbox').click()")
-	,null)
-WebUI.executeJavaScript(("return document.querySelector('body > app-root > main > loader > div > mdl-dialog-host-component > div.ng-star-inserted > create-new-view > div > div.left.w100.prop-container.pright30.pleft30.scrollable > div:nth-child(13) > viewstates-list > mdl-list > mdl-list-item:nth-child(2) > mdl-list-item-primary-content > mdl-checkbox').click()")
-	,null)
+WebUI.executeJavaScript('return document.querySelector(\'body > app-root > main > loader > div > mdl-dialog-host-component > div.ng-star-inserted > create-new-view > div > div.left.w100.prop-container.pright30.pleft30.scrollable > div:nth-child(13) > viewstates-list > mdl-list > mdl-list-item:nth-child(1) > mdl-list-item-primary-content > mdl-checkbox\').click()', 
+    null)
 
-WebUI.verifyElementPresent(findTestObject('slideshowRadioVerify'), 0)
+WebUI.executeJavaScript('return document.querySelector(\'body > app-root > main > loader > div > mdl-dialog-host-component > div.ng-star-inserted > create-new-view > div > div.left.w100.prop-container.pright30.pleft30.scrollable > div:nth-child(13) > viewstates-list > mdl-list > mdl-list-item:nth-child(2) > mdl-list-item-primary-content > mdl-checkbox\').click()', 
+    null)
 
+WebUI.verifyElementPresent(findTestObject('slideshowRadioVerify'), 30)
 
 WebUI.click(findTestObject('Object Repository/Page_AP Storytelling Playbook/button_Save (2)'))
 
@@ -64,23 +52,21 @@ WebUI.click(findTestObject('Object Repository/Page_AP Storytelling Playbook/span
 
 WebUI.click(findTestObject('Object Repository/Page_AP Storytelling Playbook/li_Show All Views'))
 
-def slideshowsCount = WebUI.executeJavaScript("return document.querySelector('body > app-root > main > loader > div > main-content > div.main-content.sidemenu-expanded > planning-views > div > div.data-container-wrapper-filter-overlay.data-container-wrapper-filter-collapsed > div.left.oauto.data-container.scrollable.data-container-filter-overlay.data-container-filter-collapsed > loader > div > div:nth-child(2) > pane-container > div.is-expanded').childElementCount", 
+def slideshowsCount = WebUI.executeJavaScript('return document.querySelector(\'body > app-root > main > loader > div > main-content > div.main-content.sidemenu-expanded > planning-views > div > div.data-container-wrapper-filter-overlay.data-container-wrapper-filter-collapsed > div.left.oauto.data-container.scrollable.data-container-filter-overlay.data-container-filter-collapsed > loader > div > div:nth-child(2) > pane-container > div.is-expanded\').childElementCount', 
     null)
 
 for (def i = 1; i <= slideshowsCount; i++) {
-    String viewText = WebUI.executeJavaScript(("return document.querySelector('body > app-root > main > loader > div > main-content > div.main-content.sidemenu-expanded > planning-views > div > div.data-container-wrapper-filter-overlay.data-container-wrapper-filter-collapsed > div.left.oauto.data-container.scrollable.data-container-filter-overlay.data-container-filter-collapsed > loader > div > div:nth-child(2) > pane-container > div.is-expanded > div:nth-child("+i+") > planning-view-item > div > div.planning-view-item-container > div.planning-view-item-title.bold').innerText;"), 
+    String viewText = WebUI.executeJavaScript(('return document.querySelector(\'body > app-root > main > loader > div > main-content > div.main-content.sidemenu-expanded > planning-views > div > div.data-container-wrapper-filter-overlay.data-container-wrapper-filter-collapsed > div.left.oauto.data-container.scrollable.data-container-filter-overlay.data-container-filter-collapsed > loader > div > div:nth-child(2) > pane-container > div.is-expanded > div:nth-child(' + 
+        i) + ') > planning-view-item > div > div.planning-view-item-container > div.planning-view-item-title.bold\').innerText;', 
         null)
 
-//body > app-root > main > loader > div > main-content > div.main-content.sidemenu-expanded > planning-views > div > div.data-container-wrapper-filter-overlay.data-container-wrapper-filter-collapsed > div.left.oauto.data-container.scrollable.data-container-filter-overlay.data-container-filter-collapsed > loader > div > div:nth-child(2) > pane-container > div.is-expanded > div:nth-child(1) > planning-view-item > div > div.planning-view-item-container > div.planning-view-item-title.bold
+    //body > app-root > main > loader > div > main-content > div.main-content.sidemenu-expanded > planning-views > div > div.data-container-wrapper-filter-overlay.data-container-wrapper-filter-collapsed > div.left.oauto.data-container.scrollable.data-container-filter-overlay.data-container-filter-collapsed > loader > div > div:nth-child(2) > pane-container > div.is-expanded > div:nth-child(1) > planning-view-item > div > div.planning-view-item-container > div.planning-view-item-title.bold
     if (viewText == viewName) {
         println((viewText + ' ************** FOUND *************** ') + viewName)
 
         break
-    }
-    
-    println(viewText)
+    } //    println((viewText + '\t') + viewName)
 }
 
-//WebUI.verifyElementText(findTestObject('viewVerify'), viewName)
-WebUI.closeBrowser()
+WebUI.callTestCase(findTestCase('Logout and close browser (partial)'), [:], FailureHandling.STOP_ON_FAILURE)
 
