@@ -6,15 +6,15 @@
    <elementGuidId>df560241-0522-40a8-99fe-72e4f5c382f4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#mdl-textfield-2</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='mdl-textfield-2']</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mdl-textfield-0</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>ff34bd91-fed1-4adf-864e-5668fa6d7c52</webElementGuid>
+      <webElementGuid>25c1e52f-a2ba-4fcd-9559-f2dd06d9b479</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mdl-textfield__input ng-untouched ng-pristine ng-valid ng-star-inserted</value>
-      <webElementGuid>8f757c27-0bf2-44db-aea3-4b4356087146</webElementGuid>
+      <webElementGuid>88de7951-2481-4589-89a7-ca17b23aa13d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>1e327069-4097-4344-9290-3b72ed81b14c</webElementGuid>
+      <webElementGuid>9d02552a-ab21-4610-a34b-4cb11badb070</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mdl-textfield-2</value>
-      <webElementGuid>a28cf01c-6394-4bbe-81fb-f2be68ca5cc4</webElementGuid>
+      <webElementGuid>5e843337-de4d-4969-be10-fd9858f7b543</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>pattern</name>
       <type>Main</type>
       <value>.*</value>
-      <webElementGuid>776527f0-1908-49a0-90c4-5371a67f4b50</webElementGuid>
+      <webElementGuid>6e687975-498e-4918-ac67-f5e7464bb189</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mdl-textfield-2&quot;)</value>
-      <webElementGuid>14b67a7d-78ee-46e9-a984-1d3e469c3c02</webElementGuid>
+      <webElementGuid>acef4bb4-8c5a-4c8e-b553-79e7fa796f02</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='mdl-textfield-2']</value>
-      <webElementGuid>bea00302-88c9-43cf-8f40-cfa617e39090</webElementGuid>
+      <webElementGuid>3806c2ea-473f-45c8-aa9d-33fe183bc4cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/mdl-textfield/div/input</value>
-      <webElementGuid>c4368a32-5f88-4f40-96f8-b1f58b712fe0</webElementGuid>
+      <webElementGuid>08b1f20e-8a90-4764-be94-3e547be10a32</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'mdl-textfield-2']</value>
-      <webElementGuid>4c9bf41a-c135-4c64-b5d4-c2952072dfeb</webElementGuid>
+      <webElementGuid>e83e8a85-2e3f-42fd-82b1-4942a805a557</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

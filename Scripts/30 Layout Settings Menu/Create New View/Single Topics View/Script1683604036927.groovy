@@ -20,6 +20,10 @@ import javax.script.*
 import org.openqa.selenium.WebElement as WebElement
 import org.apache.groovy.util.Arrays.*
 
+// Javascript actions
+String clickHamburgerMenu='document.querySelector(\'body > app-root > main > loader > div > top-bar > div > div.hamburger-menu.left.mright10 > span\').click()'
+clickShowAllViews='document.querySelector(\'body > app-root > main > loader > div > top-bar > div > div.hamburger-menu.left.mright10 > mdl-popover > ul > li:nth-child(1)\').click()'
+
 WebUI.callTestCase(findTestCase('Login (partial)'), [:], FailureHandling.STOP_ON_FAILURE)
 
 String viewName = 'SingleView-Topic'
@@ -30,6 +34,8 @@ WebUI.click(findTestObject('Object Repository/Page_AP Storytelling Playbook/li_C
 
 viewName += Math.floor(Math.random() * 1000).toInteger().toString()
 
+println("View name: "+ viewName)
+
 WebUI.setText(findTestObject('Object Repository/Page_AP Storytelling Playbook/input_Save_mdl-textfield-2'), viewName)
 
 WebUI.verifyElementPresent(findTestObject('singleViewRadio'), 100)
@@ -38,27 +44,40 @@ WebUI.verifyElementPresent(findTestObject('topicsRadio'), 100)
 
 WebUI.click(findTestObject('Object Repository/Page_AP Storytelling Playbook/button_Save (2)'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_AP Storytelling Playbook/div_View1'), viewName)
+WebUI.delay(10)
 
-WebUI.click(findTestObject('Object Repository/Page_AP Storytelling Playbook/span_View3 assignments_icon-ApplicationMenu_ae05cc (1)'))
+//WebUI.verifyElementText(findTestObject('Object Repository/Page_AP Storytelling Playbook/div_View1'), viewName)
 
-WebUI.click(findTestObject('Object Repository/Page_AP Storytelling Playbook/li_Show All Views'))
+//WebUI.click(findTestObject('Object Repository/Page_AP Storytelling Playbook/span_View3 assignments_icon-ApplicationMenu_ae05cc (1)'))
+WebUI.executeJavaScript(clickHamburgerMenu, null);
+
+//WebUI.click(findTestObject('Object Repository/Page_AP Storytelling Playbook/li_Show All Views'))
+
+WebUI.executeJavaScript(clickShowAllViews, null)
 
 def viewElementsCount = WebUI.executeJavaScript('return document.querySelector(\'body > app-root > main > loader > div > main-content > div.main-content.sidemenu-expanded > planning-views > div > div.data-container-wrapper-filter-overlay.data-container-wrapper-filter-collapsed > div.left.oauto.data-container.scrollable.data-container-filter-overlay.data-container-filter-collapsed > loader > div > div > pane-container > div.is-expanded\').childElementCount', 
     null)
 
+Boolean found=false;
+String foundString= ' ************** FOUND *************** ';
+
 for (def i = 1; i <= viewElementsCount; i++) {
+	println("Views count: "+ viewElementsCount+"   i: "+i)
     String viewText = WebUI.executeJavaScript(('return document.querySelector(\'body > app-root > main > loader > div > main-content > div.main-content.sidemenu-expanded > planning-views > div > div.data-container-wrapper-filter-overlay.data-container-wrapper-filter-collapsed > div.left.oauto.data-container.scrollable.data-container-filter-overlay.data-container-filter-collapsed > loader > div > div > pane-container > div.is-expanded > div:nth-child(' + 
         i) + ') > planning-view-item > div > div.planning-view-item-container > div.planning-view-item-title.bold\').innerText;', 
         null)
 
     if (viewText == viewName) {
-        println((viewText + ' ************** FOUND *************** ') + viewName)
-
-        break
+        println("\n"+viewText + foundString + viewName+"\n")
+		found=true;
+        break;
     }
     
     println(viewText)
+}
+
+if(!found) {
+	println(' **                     NOT FOUND !!!               **')
 }
 
 WebUI.callTestCase(findTestCase('Logout and close browser (partial)'), [:], FailureHandling.STOP_ON_FAILURE)

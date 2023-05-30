@@ -42,7 +42,6 @@ WebUI.verifyElementPresent(findTestObject('assignmentRadio'), 100)
 
 WebUI.click(findTestObject('Object Repository/Page_AP Storytelling Playbook/button_Save (2)'))
 
-//WebUI.verifyElementText(findTestObject('Object Repository/Page_AP Storytelling Playbook/div_View1'), viewName)
 WebUI.click(findTestObject('Object Repository/Page_AP Storytelling Playbook/span_View3 assignments_icon-ApplicationMenu_ae05cc (1)'))
 
 WebUI.click(findTestObject('Object Repository/Page_AP Storytelling Playbook/li_Show All Views'))

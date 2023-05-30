@@ -6,15 +6,15 @@
    <elementGuidId>f7a96779-42fe-4832-9948-785998bbba4f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='cdk-overlay-0']/external-actions-overlay/div/table/tr[2]/td[2]/div</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#cdk-overlay-4 > external-actions-overlay > div > table > tr:nth-child(5) > td:nth-child(2) > div</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>f1b018b7-431f-4407-ac28-79b26b3edf10</webElementGuid>
+      <webElementGuid>74d7e1e6-0278-4969-9de8-a7db41ae9287</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>action-button-label pointer</value>
-      <webElementGuid>69bf2e92-aaed-4596-8de7-7dd41e5d59e6</webElementGuid>
+      <webElementGuid>9f31aae7-ab61-426a-9c03-3561e45c15af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Copy to Clipboard </value>
-      <webElementGuid>ecb76fa7-6e33-473b-9ca4-f66d2edbe00d</webElementGuid>
+      <webElementGuid>7b4077a0-ce92-47e6-ada2-ef16f47059e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;cdk-overlay-0&quot;)/external-actions-overlay[1]/div[@class=&quot;overlay-container&quot;]/table[1]/tr[@class=&quot;action-button-cell ng-star-inserted&quot;]/td[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;action-button-label pointer&quot;]</value>
-      <webElementGuid>f27f17e5-631f-4ca6-8218-ad35a725f0a8</webElementGuid>
+      <webElementGuid>e2c3b3ff-1760-4a99-931d-6a6789c108c2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='cdk-overlay-0']/external-actions-overlay/div/table/tr[2]/td[2]/div</value>
-      <webElementGuid>4ffd3593-e26f-4e93-aa39-9fdd3fdc5832</webElementGuid>
+      <webElementGuid>be63c9e4-e820-4d7c-923e-d6b4fe697bf6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/following::div[3]</value>
-      <webElementGuid>719e70f8-9fd3-4152-944f-5472b29617f7</webElementGuid>
+      <webElementGuid>eec1927e-b39b-4593-b1fa-c0055a01c7e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='© Associated Press All rights reserved.'])[1]/following::div[13]</value>
-      <webElementGuid>f58182c5-3f1e-4944-b3ac-9cefb9da3445</webElementGuid>
+      <webElementGuid>d4bb8bd6-9628-4077-93f8-b715996d249b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Copy to Clipboard']/parent::*</value>
-      <webElementGuid>97eb4f3e-1b86-46ed-9047-3661a0063958</webElementGuid>
+      <webElementGuid>2e9ac6e1-cf0c-4f20-a3e4-ea41305d26f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[2]/td[2]/div</value>
-      <webElementGuid>10aab720-6c5a-440d-8c89-78f8e5a190d9</webElementGuid>
+      <webElementGuid>353163a0-20e7-490a-891b-a7e0f2ea3787</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = ' Copy to Clipboard ' or . = ' Copy to Clipboard ')]</value>
-      <webElementGuid>9d834de3-b15e-476d-af76-fd2251a490fa</webElementGuid>
+      <webElementGuid>5470808c-b787-41e1-952a-5d9142013920</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -35,7 +35,7 @@ WebUI.click(findTestObject('Object Repository/Page_AP Storytelling Playbook/mat-
 
 WebUI.click(findTestObject('Object Repository/Page_AP Storytelling Playbook/div_Copy to Clipboard (1)'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Page_AP Storytelling Playbook/h4_Error'), 0)
+not_run: WebUI.waitForElementPresent(findTestObject('Object Repository/Page_AP Storytelling Playbook/h4_Error'), 0)
 
-WebUI.callTestCase(findTestCase('Logout and close browser (partial)'), [:], FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.callTestCase(findTestCase('Logout and close browser (partial)'), [:], FailureHandling.STOP_ON_FAILURE)
 

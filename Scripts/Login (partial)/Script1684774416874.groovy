@@ -17,7 +17,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('http://lonenpsdevqa53/apstorytelling/#/login')
+//import org.openqa.selenium.WebDriverimport 
+//import org.openqa.selenium.chrome.ChromeDriverimport 
+//import org.openqa.selenium.chrome.ChromeOptionsimport 
+//import com.kms.katalon.core.webui.driver.DriverFactory
+
+//
+//ChromeOptions options = new ChromeOptions();
+//
+//options.setExperimentalOption(“useAutomationExtension”, false);
+//
+//WebDriver driver = new ChromeDriver(options);
+//
+//DriverFactory.changeWebDriver(driver)
+
+def URL = ((GlobalVariable.protocol + '://') + GlobalVariable.server) + '/apstorytelling/'
+WebUI.openBrowser(URL)
+
+//WebUI.openBrowser('http://lonenpsdevqa53/apstorytelling/#/login')
 
 WebUI.maximizeWindow()
 

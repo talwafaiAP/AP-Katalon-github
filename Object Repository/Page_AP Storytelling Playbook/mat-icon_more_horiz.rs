@@ -6,15 +6,15 @@
    <elementGuidId>d56c462a-62fd-4762-8bd4-b2f72b64dd3d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>mat-icon.mat-icon.notranslate.material-icons.mat-icon-no-color</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='mainPanel']/div[4]/playbook-card-view/div/div/div/card-group/pane-container/div[3]/div[2]/div/assignment/div/div/div[5]/div[2]/mat-icon</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mainPanel > div:nth-child(4) > playbook-card-view > div > div > div > card-group > pane-container > div.is-expanded > div:nth-child(3) > topic-item > div.mbottom2.list-item.web.is-not-selected.drag-handle.ng-star-inserted > div.lower-card > div.side-menu.ng-star-inserted > div > div.d-inline-block > mat-icon</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>mat-icon</value>
-      <webElementGuid>14a4008c-e760-4060-aae0-a819a3ee79bb</webElementGuid>
+      <webElementGuid>467b94ce-127f-4b04-ab4e-3118edc23424</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>role</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>0733a1ae-39db-4a43-b371-76e33404f21f</webElementGuid>
+      <webElementGuid>db72cdcf-a134-4136-8142-fd365463c6a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>aria-hidden</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>8f2a59d9-ff2c-4d17-87be-4599d8f062d2</webElementGuid>
+      <webElementGuid>7b5547d4-758c-4def-b179-9e3a14ebdc98</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-icon notranslate material-icons mat-icon-no-color</value>
-      <webElementGuid>b3b59cf2-fdf0-42c9-8899-4d0dafb8430d</webElementGuid>
+      <webElementGuid>be4b06ea-5e4e-49f6-ae6a-3317ee022233</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>data-mat-icon-type</name>
       <type>Main</type>
       <value>font</value>
-      <webElementGuid>1bccc08a-c398-4a47-be76-ab5655c09a90</webElementGuid>
+      <webElementGuid>79ed186c-37ff-4b1f-9deb-25cdfe0b9cee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>text</name>
       <type>Main</type>
       <value> more_horiz </value>
-      <webElementGuid>12cdabb9-96c6-4b96-808e-40c708551943</webElementGuid>
+      <webElementGuid>4f112614-2379-4595-8b2d-bf5bc0f3549e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mainPanel&quot;)/div[@class=&quot;ng-star-inserted&quot;]/playbook-card-view[1]/div[@class=&quot;list-items-container left-scrollable otouch ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/card-group[1]/pane-container[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;is-expanded&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;mbottom10 assignment-list-item mleft5 ng-star-inserted&quot;]/assignment[1]/div[@class=&quot;ptop10 drag-handle assignment-block-list ng-star-inserted&quot;]/div[@class=&quot;assignment-container&quot;]/div[@class=&quot;more-menu d-flex align-items-end ng-star-inserted&quot;]/div[@class=&quot;d-inline-block&quot;]/mat-icon[@class=&quot;mat-icon notranslate material-icons mat-icon-no-color&quot;]</value>
-      <webElementGuid>0c435153-e865-4ea3-930e-5a1d9e8d733c</webElementGuid>
+      <webElementGuid>7e1b4d69-775c-453c-8658-09517fce5fb4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='mainPanel']/div[4]/playbook-card-view/div/div/div/card-group/pane-container/div[3]/div[2]/div/assignment/div/div/div[5]/div[2]/mat-icon</value>
-      <webElementGuid>6cd6a2e0-81c2-422a-a54c-66143d22c925</webElementGuid>
+      <webElementGuid>220fd2e6-1762-485a-872d-8bad120d85b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Changed: 24 minutes ago'])[1]/following::mat-icon[1]</value>
-      <webElementGuid>5508dfef-1432-4b12-98a7-bde8e410513e</webElementGuid>
+      <webElementGuid>a57ce3ee-ac1c-47ea-917c-588393d78492</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='keyboard_arrow_down'])[5]/following::mat-icon[1]</value>
-      <webElementGuid>96a06638-a1ee-4ab3-8b69-797abf1d2f79</webElementGuid>
+      <webElementGuid>2c22c049-0b63-46e4-8fa7-d2458ada750b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Slug'])[4]/preceding::mat-icon[1]</value>
-      <webElementGuid>1333a266-3f31-4800-9134-8b1db58c98a4</webElementGuid>
+      <webElementGuid>8f93d877-456e-4ccc-b3bd-269f212b23a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='System Administrator'])[2]/preceding::mat-icon[1]</value>
-      <webElementGuid>e4a5d8e4-b782-43f1-b6c7-a0b66108ff3a</webElementGuid>
+      <webElementGuid>fd55b78b-1064-4a1a-afb0-2460050feeba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='more_horiz']/parent::*</value>
-      <webElementGuid>f55c84c0-f086-4dd0-9991-fbb63645b687</webElementGuid>
+      <webElementGuid>81093a19-25ed-4ca8-8c96-8e0be142aa2b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-icon</value>
-      <webElementGuid>61165bc8-adea-4a5c-883a-ee0566c8145a</webElementGuid>
+      <webElementGuid>ef086b08-8052-459d-b244-259de5d299d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +134,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//mat-icon[(text() = ' more_horiz ' or . = ' more_horiz ')]</value>
-      <webElementGuid>13018b36-9a3b-4fc3-a964-5e736d36c3ca</webElementGuid>
+      <webElementGuid>2291e39d-c9f1-4903-b4ab-3a68e1449bff</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
