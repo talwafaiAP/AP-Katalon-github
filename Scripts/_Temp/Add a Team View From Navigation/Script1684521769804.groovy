@@ -17,19 +17,4 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Login (partial)'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Object Repository/Page_AP Storytelling Playbook/span_View3 assignments_icon-ApplicationMenu_ae05cc (4)'))
-
-WebUI.click(findTestObject('Object Repository/Page_AP Storytelling Playbook/li_Edit Team Settings (1)'))
-
-WebUI.click(findTestObject('Object Repository/Page_AP Storytelling Playbook/span_Section Title_icon-ApplicationMenu hand fs22 (1)'))
-
-WebUI.click(findTestObject('Object Repository/Page_AP Storytelling Playbook/li_Create New Team View'))
-
-WebUI.setText(findTestObject('Object Repository/Page_AP Storytelling Playbook/input_Save_mdl-textfield-2 (3)'), 'Team View')
-
-WebUI.click(findTestObject('Object Repository/Page_AP Storytelling Playbook/button_Save (4)'))
-
-WebUI.closeBrowser()
 

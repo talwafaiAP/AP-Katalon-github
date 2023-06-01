@@ -6,12 +6,12 @@
    <elementGuidId>0d16a57e-a565-43bf-97ff-0dfd715340f3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.icon-ApplicationMenu.hand.fs22</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//top-bar/div/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.icon-ApplicationMenu.hand.fs22</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>7eed6f67-acc2-4021-9efc-8c13bfada8cd</webElementGuid>
+      <webElementGuid>4532c4d0-ba65-446c-b07a-58c4f3d29ea7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>icon-ApplicationMenu hand fs22</value>
-      <webElementGuid>9a3db282-1a94-483a-b80b-aaaa9ae4b37c</webElementGuid>
+      <webElementGuid>0f0e17b7-5e10-4eba-bd58-fff67a744524</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;playbook-theme multiple-products&quot;]/app-root[1]/main[@class=&quot;ng-star-inserted&quot;]/loader[1]/div[1]/top-bar[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;top-bar-container fixed&quot;]/div[@class=&quot;hamburger-menu left mright10&quot;]/span[@class=&quot;icon-ApplicationMenu hand fs22&quot;]</value>
-      <webElementGuid>b1828eed-7a5d-4501-8a91-63f0989fc175</webElementGuid>
+      <webElementGuid>76ea42cf-87a2-4e6d-9977-e4a7dbb4db59</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,6 +46,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//top-bar/div/div/span</value>
-      <webElementGuid>55d6a778-41f3-4144-bd24-ff0a5336ebe0</webElementGuid>
+      <webElementGuid>e33e5efa-74ac-4620-9ef5-5f280831ecc4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
