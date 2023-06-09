@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Source</name>
+   <tag></tag>
+   <elementGuidId>257578c5-4e9f-4a66-a5d5-b0208305ca12</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>body > app-root > main > loader > div > side-bar > div > div > ul:nth-child(3) > li:nth-child(3) > div</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>DIV</value>
+      <webElementGuid>434f3ccc-061d-494a-834c-bdb24b172ae6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>xpath1685985019180</value>
+      <webElementGuid>2d3227d7-ace1-414c-94be-0155b1a471cc</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

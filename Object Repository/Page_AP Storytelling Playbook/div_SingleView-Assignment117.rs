@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_SingleView-Assignment117</name>
+   <tag></tag>
+   <elementGuidId>df2abca1-13c9-4b6f-8860-020e5195a89f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>body > app-root > main > loader > div > side-bar > div > div > ul:nth-child(3)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Section Title 1'])[1]/following::div[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>17e13d53-a413-4bc4-a6dc-8079b0b917e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>navigation-sub-item</value>
+      <webElementGuid>00ed1852-24af-4366-aa10-f80d49329daa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SingleView-Assignment117</value>
+      <webElementGuid>2448be53-819e-4ebc-be8b-45ab85028779</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;playbook-theme multiple-products&quot;]/app-root[1]/main[@class=&quot;ng-star-inserted&quot;]/loader[1]/div[1]/side-bar[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;side-bar container expanded&quot;]/div[@class=&quot;container-inner scrollable ng-star-inserted&quot;]/ul[@class=&quot;ng-star-inserted&quot;]/li[@class=&quot;sub-item drag-handle ng-star-inserted&quot;]/div[@class=&quot;navigation-sub-item&quot;]</value>
+      <webElementGuid>4f433d07-2c1d-47b1-9c0e-5480496db470</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Section Title 1'])[1]/following::div[1]</value>
+      <webElementGuid>d4530cac-bf35-45a6-b90a-9aa8ef2eea9a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DEFAULT'])[1]/following::div[5]</value>
+      <webElementGuid>0b4d9494-acf3-4809-974e-7890f584b731</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SingleView-Assignment116'])[1]/preceding::div[1]</value>
+      <webElementGuid>e1b90cbb-e0b6-46ed-811f-acb0a6af33c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/div</value>
+      <webElementGuid>644bf5b9-85ce-4663-8a03-1057c981054b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'SingleView-Assignment117' or . = 'SingleView-Assignment117')]</value>
+      <webElementGuid>bf65e283-45e7-4a2a-a680-2c39394048e7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

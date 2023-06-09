@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Fail</description>
+   <name>_Add a new section to the navigation bar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fc87801e-d607-46cc-b9aa-e652656a5620</testCaseGuid>
+</TestCaseEntity>

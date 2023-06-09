@@ -7,14 +7,14 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>span.mdl-checkbox__tick-outline</value>
+         <value>body > app-root > main > loader > div > top-bar > div > div.hamburger-menu.left.mright10 > span</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[3]/span</value>
+         <value>//top-bar/div/div/span</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,30 +22,38 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>ec275bb4-d630-433b-b06c-45ce375102df</webElementGuid>
+      <webElementGuid>00fffefa-e459-4f08-ac0e-08979f412885</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mdl-checkbox__tick-outline</value>
-      <webElementGuid>686c3be4-0c93-4b16-b6be-14f58e12c5db</webElementGuid>
+      <value>icon-ApplicationMenu hand fs22</value>
+      <webElementGuid>db85a1cb-8abe-435d-9ed4-a8a606946832</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;playbook-theme multiple-products&quot;]/app-root[1]/main[@class=&quot;ng-star-inserted&quot;]/loader[1]/div[1]/main-content[@class=&quot;otouch&quot;]/div[@class=&quot;main-content sidemenu-shrinked&quot;]/manage-publication-channels[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;data-container-wrapper&quot;]/loader[1]/div[@class=&quot;scroll-container&quot;]/pane-container[1]/div[@class=&quot;is-expanded&quot;]/div[@class=&quot;relative left item-container ng-star-inserted&quot;]/div[@class=&quot;left mleft20 main-info-container&quot;]/div[@class=&quot;w70 left row&quot;]/div[@class=&quot;left ellipsis col single-page ng-star-inserted&quot;]/mdl-checkbox[@class=&quot;mdl-checkbox is-upgraded ng-untouched ng-pristine ng-valid ng-star-inserted is-checked&quot;]/span[@class=&quot;mdl-checkbox__box-outline&quot;]/span[@class=&quot;mdl-checkbox__tick-outline&quot;]</value>
-      <webElementGuid>cd365f0c-022d-4d9b-8496-0f657035363d</webElementGuid>
+      <value>/html[1]/body[@class=&quot;playbook-theme multiple-products&quot;]/app-root[1]/main[@class=&quot;ng-star-inserted&quot;]/loader[1]/div[1]/top-bar[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;top-bar-container fixed&quot;]/div[@class=&quot;hamburger-menu left mright10&quot;]/span[@class=&quot;icon-ApplicationMenu hand fs22&quot;]</value>
+      <webElementGuid>262bfe41-fb75-42dc-aaf8-5d0c91c8b8aa</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
+      <value>//top-bar/div/div/span</value>
+      <webElementGuid>09160a4d-f911-4b9b-9e64-d6880001a4ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
       <value>//span[3]/span</value>
-      <webElementGuid>33f68e84-928e-4b9a-9146-f4432106c340</webElementGuid>
+      <webElementGuid>2bb13d84-cae8-49d9-976b-e24c0f663750</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

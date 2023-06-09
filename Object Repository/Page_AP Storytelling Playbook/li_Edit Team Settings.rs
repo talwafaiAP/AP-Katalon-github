@@ -6,11 +6,12 @@
    <elementGuidId>01baa223-2777-4a2d-a5f1-35cb82ff12ae</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[1]/following::li[1]</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[1]/following::li[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>01f9a26e-d2c7-4f6b-9c4d-b71aa8386109</webElementGuid>
+      <webElementGuid>c767d253-aad0-4412-b765-25de341ee808</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -29,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>top-bar-view-setting-cmd ng-star-inserted</value>
-      <webElementGuid>e50004e1-09cd-4e29-ad2f-47564d39c51f</webElementGuid>
+      <webElementGuid>268a2a90-3975-49be-b8c8-87aac21b3e1e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Edit Team Settings </value>
-      <webElementGuid>89cddd21-3a8a-4865-bbf1-be5fed3cb1fe</webElementGuid>
+      <webElementGuid>9f510748-239a-4739-b86b-f160a3b3a556</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;playbook-theme multiple-products&quot;]/app-root[1]/main[@class=&quot;ng-star-inserted&quot;]/loader[1]/div[1]/top-bar[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;top-bar-container fixed&quot;]/div[@class=&quot;hamburger-menu left mright10&quot;]/mdl-popover[@class=&quot;view-settings-popover mdl-shadow--2dp mdl-popover is-visible&quot;]/ul[@class=&quot;view-setting-command ng-star-inserted&quot;]/li[@class=&quot;top-bar-view-setting-cmd ng-star-inserted&quot;]</value>
-      <webElementGuid>f1d08ddf-3e5a-4db5-91cb-7e56a8b366e5</webElementGuid>
+      <webElementGuid>f4b0cd14-a265-4acf-b828-a99b945a3caf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[1]/following::li[1]</value>
-      <webElementGuid>5429f4cd-cda0-4093-a5e7-756f7ec92bf6</webElementGuid>
+      <webElementGuid>60eae842-4386-468e-a155-97dbcac7536d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Copy to clipboard'])[1]/following::li[2]</value>
-      <webElementGuid>e9f36957-227c-470c-a0a4-935019db56d6</webElementGuid>
+      <webElementGuid>82aa546a-ffb8-45d0-b3e8-d02360e273b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[2]/preceding::li[1]</value>
-      <webElementGuid>fe78c5c3-0a71-4797-850f-5dec15fb982e</webElementGuid>
+      <webElementGuid>75266dac-7a0a-4bd5-8cce-d7b379fcca40</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hide Navigation Bar'])[1]/preceding::li[2]</value>
-      <webElementGuid>bc97fd8d-75ff-40c9-8406-cd5b685f89bc</webElementGuid>
+      <webElementGuid>01474684-a273-4802-a0c7-c6623366fbd1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Edit Team Settings']/parent::*</value>
-      <webElementGuid>ec5e0d69-ee25-470a-a619-41b4b5dafa73</webElementGuid>
+      <webElementGuid>1b9adc19-785e-4029-837c-8edf80798a4d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[8]</value>
-      <webElementGuid>cb681871-0952-46aa-acaa-1caca02d3b4a</webElementGuid>
+      <webElementGuid>50121581-71ef-434b-aa3e-dd2988020a8d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = ' Edit Team Settings ' or . = ' Edit Team Settings ')]</value>
-      <webElementGuid>bc57ab5c-15ee-4979-8cc2-667f79207db6</webElementGuid>
+      <webElementGuid>1ff4f112-bf95-4163-8f01-b1fdfa8493c4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

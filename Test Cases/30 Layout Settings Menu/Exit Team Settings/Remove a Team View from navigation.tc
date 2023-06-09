@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Fail</description>
+   <name>Remove a Team View from navigation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>571ca516-e27f-46ec-9591-140089504aa9</testCaseGuid>
+</TestCaseEntity>

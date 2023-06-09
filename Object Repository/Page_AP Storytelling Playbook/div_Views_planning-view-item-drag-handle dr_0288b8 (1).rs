@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Views_planning-view-item-drag-handle dr_0288b8 (1)</name>
+   <tag></tag>
+   <elementGuidId>414df542-bfa5-4e4f-b4b5-904c50b440fb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.planning-view-item-drag-handle.drag-handle</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//planning-view-item/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5b1da736-90e8-4357-a00e-cdfe67bd05f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>planning-view-item-drag-handle drag-handle</value>
+      <webElementGuid>e39f7312-a253-4e10-be8c-806a56585d03</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;playbook-theme multiple-products&quot;]/app-root[1]/main[1]/loader[1]/div[1]/main-content[@class=&quot;otouch&quot;]/div[@class=&quot;main-content sidemenu-expanded&quot;]/planning-views[1]/div[@class=&quot;planning-views-container&quot;]/div[@class=&quot;data-container-wrapper-filter-overlay data-container-wrapper-filter-collapsed&quot;]/div[@class=&quot;left oauto data-container scrollable data-container-filter-overlay data-container-filter-collapsed&quot;]/loader[1]/div[1]/div[1]/pane-container[1]/div[@class=&quot;is-expanded&quot;]/div[@class=&quot;planning-view-item-container&quot;]/planning-view-item[1]/div[@class=&quot;planning-view-item&quot;]/div[@class=&quot;planning-view-item-drag-handle drag-handle&quot;]</value>
+      <webElementGuid>b38807b7-ad94-45b2-b6e5-ed5e318dabd5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//planning-view-item/div/div</value>
+      <webElementGuid>92fec4e0-81cb-4c57-a6ba-e4b48fce1058</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

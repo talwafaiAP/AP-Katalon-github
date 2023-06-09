@@ -6,12 +6,12 @@
    <elementGuidId>6ba0cda2-f0fd-462a-9b4b-dd68a03ce777</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//top-bar/div/div/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.icon-ApplicationMenu.hand.fs22</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//top-bar/div/div/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>7d22fc92-3312-41aa-874a-b9da2366082f</webElementGuid>
+      <webElementGuid>5a8d5a4b-de95-4af3-809a-f26544f189e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>icon-ApplicationMenu hand fs22</value>
-      <webElementGuid>bee21520-36e5-49de-8e45-9c03c3ce272e</webElementGuid>
+      <webElementGuid>5a867430-81ab-4509-a28d-14d8e4e99522</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;playbook-theme multiple-products&quot;]/app-root[1]/main[@class=&quot;ng-star-inserted&quot;]/loader[1]/div[1]/top-bar[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;top-bar-container fixed team-settings&quot;]/div[@class=&quot;hamburger-menu left mright10&quot;]/span[@class=&quot;icon-ApplicationMenu hand fs22&quot;]</value>
-      <webElementGuid>008036e3-bc15-4daa-ba79-ccb3b1698530</webElementGuid>
+      <webElementGuid>2df02702-3acd-4aaf-87e1-3d58b3467993</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,6 +46,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//top-bar/div/div/span</value>
-      <webElementGuid>faea9f5a-2d43-4ce7-a777-a8c119439653</webElementGuid>
+      <webElementGuid>2f83f0a0-d913-4463-bb58-4aa72adc3f27</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

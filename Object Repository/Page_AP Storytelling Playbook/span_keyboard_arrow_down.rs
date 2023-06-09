@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>span.mdl-select__toggle.material-icons</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Edition Names'])[1]/following::span[2]</value>
+         <value>//div[@id='mainPanel']/div[2]/div[3]/div/div[2]/div/list-drop-down/div/div/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,34 +22,90 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>f42ee426-1494-410a-ad9c-97ea0b1c5ab7</webElementGuid>
+      <webElementGuid>8eaf9024-d1bc-4815-ae9f-93599e917bee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mdl-select__toggle material-icons</value>
-      <webElementGuid>fc5a082a-659d-41c4-8d79-7f9ee156d1d5</webElementGuid>
+      <value>material-icons left mleft5 pointer</value>
+      <webElementGuid>f6346beb-3a67-45e7-9beb-03203f65eeea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> keyboard_arrow_down </value>
-      <webElementGuid>70a36667-0ec2-4681-a470-759be95946d5</webElementGuid>
+      <value>keyboard_arrow_down</value>
+      <webElementGuid>5dad6189-4164-40b5-853e-2f304b9267bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;playbook-theme multiple-products&quot;]/app-root[1]/main[@class=&quot;ng-star-inserted&quot;]/loader[1]/div[1]/main-content[@class=&quot;otouch&quot;]/div[@class=&quot;main-content sidemenu-shrinked&quot;]/manage-publication-channels[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;data-container-wrapper&quot;]/loader[1]/div[@class=&quot;scroll-container&quot;]/pane-container[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;is-expanded&quot;]/div[@class=&quot;relative left item-container ng-star-inserted&quot;]/div[@class=&quot;left mleft20 main-info-container&quot;]/div[@class=&quot;w70 left row&quot;]/div[@class=&quot;left ellipsis col single-page&quot;]/mdl-select[@class=&quot;mdl-select has-placeholder ng-untouched ng-valid ng-dirty&quot;]/div[@class=&quot;mdl-textfield is-upgraded is-focused&quot;]/span[@class=&quot;mdl-select__toggle material-icons&quot;]</value>
-      <webElementGuid>9b0d1bff-3caf-43c1-bafc-39b6bd7dad23</webElementGuid>
+      <value>id(&quot;mainPanel&quot;)/div[@class=&quot;top-menu mtop10 row mx-0 flex-nowrap&quot;]/div[@class=&quot;top-container col px-0 ng-star-inserted&quot;]/div[@class=&quot;row justify-content-end align-items-center h-100 mx-0 flex-nowrap&quot;]/div[@class=&quot;d-flex flex-column flex-shrink-1 flex-nowrap min-w-0 ng-star-inserted&quot;]/div[@class=&quot;d-flex align-items-center justify-content-center mright20 flex-shrink-1 flex-nowrap min-w-0&quot;]/list-drop-down[@class=&quot;mright5 d-flex flex-shrink-1 flex-nowrap min-w-0&quot;]/div[@class=&quot;pointer d-flex align-items-center justify-content-center mleft5 relative flex-shrink-1 flex-nowrap min-w-0&quot;]/div[@class=&quot;pointer d-flex align-items-center justify-content-center display-value-container flex-shrink-1 flex-nowrap min-w-0&quot;]/span[@class=&quot;material-icons left mleft5 pointer&quot;]</value>
+      <webElementGuid>a53cfdc3-b44e-4145-a6c4-a5973bd42fb5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mainPanel']/div[2]/div[3]/div/div[2]/div/list-drop-down/div/div/span</value>
+      <webElementGuid>187d98fd-3b99-4fd2-8b42-0d0d028daaf4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Target Publication Date-Date'])[3]/following::span[1]</value>
+      <webElementGuid>29ca567c-f0c7-4fb1-874f-2c91c15ce5e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sort By:'])[1]/following::span[1]</value>
+      <webElementGuid>471ea1b5-4413-4d5d-b844-bbef743bfbe7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last Modified'])[1]/preceding::span[1]</value>
+      <webElementGuid>8a8f9791-3467-44d3-a87b-ba016691080f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Description'])[1]/preceding::span[1]</value>
+      <webElementGuid>4f1382b7-3752-4cea-8de6-b114a0e54c43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/list-drop-down/div/div/span</value>
+      <webElementGuid>f0242072-6da1-45ee-804c-88ca07e923bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'keyboard_arrow_down' or . = 'keyboard_arrow_down')]</value>
+      <webElementGuid>c784b320-6e3f-4e5f-8cfb-9628da8236bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>

@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>div.planning-view-item-selected.fs14.icon-FavoriteNotSelected</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='keyboard_arrow_down'])[3]/following::div[2]</value>
+         <value>//div/div[3]/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>97850f6b-954f-4437-b673-cf8c648077c7</webElementGuid>
+      <webElementGuid>dfbd15f5-0ba1-4558-ab0a-6a8572d4a3eb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>left ellipsis col single-page ng-star-inserted</value>
-      <webElementGuid>45d6dfe5-d332-4dad-9a4d-a10e0a61ccec</webElementGuid>
+      <value>planning-view-item-selected fs14 icon-FavoriteNotSelected</value>
+      <webElementGuid>0ad9b2e4-5754-4078-b00e-4942214165ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,11 +45,19 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;playbook-theme multiple-products&quot;]/app-root[1]/main[@class=&quot;ng-star-inserted&quot;]/loader[1]/div[1]/main-content[@class=&quot;otouch&quot;]/div[@class=&quot;main-content sidemenu-shrinked&quot;]/manage-publication-channels[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;data-container-wrapper&quot;]/loader[1]/div[@class=&quot;scroll-container&quot;]/pane-container[1]/div[@class=&quot;is-expanded&quot;]/div[@class=&quot;relative left item-container ng-star-inserted&quot;]/div[@class=&quot;left mleft20 main-info-container&quot;]/div[@class=&quot;w70 left row&quot;]/div[@class=&quot;left ellipsis col single-page ng-star-inserted&quot;]</value>
-      <webElementGuid>c1e10792-cda8-4200-b1ac-3f288c01cd46</webElementGuid>
+      <value>/html[1]/body[@class=&quot;playbook-theme multiple-products&quot;]/app-root[1]/main[@class=&quot;ng-star-inserted&quot;]/loader[1]/div[1]/main-content[@class=&quot;otouch&quot;]/div[@class=&quot;main-content sidemenu-expanded&quot;]/planning-views[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;planning-views-container&quot;]/div[@class=&quot;data-container-wrapper-filter-overlay data-container-wrapper-filter-collapsed&quot;]/div[@class=&quot;left oauto data-container scrollable data-container-filter-overlay data-container-filter-collapsed&quot;]/loader[1]/div[1]/div[@class=&quot;ng-star-inserted&quot;]/pane-container[1]/div[@class=&quot;is-expanded&quot;]/div[@class=&quot;planning-view-item-container ng-star-inserted&quot;]/planning-view-item[1]/div[@class=&quot;planning-view-item&quot;]/div[@class=&quot;planning-view-item-buttons-container&quot;]/div[@class=&quot;planning-view-item-selected fs14 icon-FavoriteNotSelected&quot;]</value>
+      <webElementGuid>66789d52-3f56-4808-8dfd-373d18950440</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[3]/div</value>
+      <webElementGuid>ddead07d-9741-46ff-8b5f-3a3547ccaf80</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
